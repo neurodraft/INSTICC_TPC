@@ -1,0 +1,2564 @@
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X P X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B           P         @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B         P           @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B       P             @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B     P               @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X P X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B   X                  
+ X X X   X   X X P X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B   B P X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B     X                    
+     X X X     B X X                  
+     X     B B P   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B   B X                    
+     X X X     P X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B   B X                    
+     X X X   P   X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X B P B X                    
+     X X X       X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X   P   X                    
+         X B   B X                    
+     X X X       X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X P     X                    
+         X B   B X                    
+     X X X       X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X P   B X                    
+     X X X B     X X                  
+     X     B B     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X P     X X                  
+     X     B B     X                  
+ X X X   X B X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X     P B     X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X       P B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X     P X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X   P   X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X P     X B X X   X X X X X     @ @ X
+ X   B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X P B     B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X   P B   B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X     P B B                     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X       P B B                   @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         P B B                 @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X           P B B               @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X             P B B             @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P B B           @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P B B         @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P B B       @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P B B     @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P B B   @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P B B @ @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P B B @ X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P       B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P         B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P           B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P             B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X             P                 B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X           P                   B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         P                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X       P                       B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X     P                         B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X B X X   X       X X X X X X
+ X     P X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X P X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X     P X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X     P   B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X       P B                     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         P B                   B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X           P B                 B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X             P B               B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P B             B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P B           B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P B         B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P B       B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P B     B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P B   B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P B B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X P   @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X   P @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X     @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X   B @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X   B @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X P B @ @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X   P B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P       B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P         B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P           B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P             B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X P X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X P X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X         B P X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X       B P   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X       X X                  
+     X     B P     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     B X                    
+     X X X   P   X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X   P B X                    
+     X X X       X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X   P   X                    
+         X     B X                    
+     X X X       X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X     P X                    
+         X     B X                    
+     X X X       X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X     P X                    
+     X X X     B X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X     P X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X   P   X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X P     X X                  
+     X     B   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X B X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X P X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X     P X B X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X     P   B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X       P B                     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         P B                   B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X           P B                 B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X             P B               B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P B             B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P B           B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P B         B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P B       B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P B     B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P B   B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P B B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X P   @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X   P @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X     B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X   B B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X   B B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X P B B @ X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X   P B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                         P     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                       P       B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                     P         B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                   P           B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                 P             B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X               P               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X             P                 B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X           P                   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X         P                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X       P                       B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X     P                         B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X     P X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X P X X   X       X X X X X X
+ X       X B X X   X X X X X     @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X P X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X P X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P   B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X   P     B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X P       B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X P X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X     P X   X X   X X X X X     @ @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X     P   B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X       P B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X         P B                   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X           P B                 B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X             P B               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X               P B             B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                 P B           B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                   P B         B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                     P B       B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                       P B     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                         P B   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                           P B B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X P   B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     @ @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X   P B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   B @ @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   B @ @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X P B @ @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   P B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X P   B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                         P     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                       P       B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                     P         B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                   P           B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                 P             B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X               P               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X P X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B   X                  
+ X X X   X   X X P X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X         B P X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X       B P   X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     B P     X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X   P   X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X P     X X                  
+     X     B       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P       X                  
+ X X X   X B X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X P X X   X       X X X X X X
+ X       X B X X   X X X X X     B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X P X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X P X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X     P       X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X   P         X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X P           X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X P X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X     P X   X X   X X X X X     B @ X
+ X         B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X     P   B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X       P B                     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X         P B                   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X           P B                 B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X             P B               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X               P B             B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                 P B           B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                   P B         B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                     P B       B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                       P B     B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                         P B   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                           P B B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X P   B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X     B @ X
+ X                             B B B X
+ X X X X   X X X X   X   X X   P B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   B B @ X
+ X                             P B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   B B @ X
+ X                           P   B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X P B B @ X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+         X X X X X                    
+         X       X                    
+         X       X                    
+     X X X       X X                  
+     X             X                  
+ X X X   X   X X   X       X X X X X X
+ X       X   X X   X X X X X   P B B X
+ X                               B B X
+ X X X X   X X X X   X   X X     B B X
+       X             X X X X X X X X X
+       X X X X X X X X                
+-------- --------
+AStarResult {
+  path: undefined,
+  pathLength: 213,
+  totalGenerated: 4735,
+  totalExpanded: 1802,
+  timeDuration: 2671,
+  status: 'Solution found successfully.'
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "heap": "^0.2.7",
+    "object-hash": "^3.0.0"
+  }
+}
