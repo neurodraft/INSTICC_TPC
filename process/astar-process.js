@@ -1,15 +1,76 @@
 const Heap = require('heap');
 const hash = require('object-hash');
+const process = require('process');
+
+process.on('message', message => {
+    switch (message.action) {
+        case 'solve':
+            solve(message.args);
+            break;
+        default:
+            break;
+    }
+});
+
+function validateArgs(args){
+    var errors = [];
+
+    if(!(args.startState instanceof Object)){
+        errors.push("startState must be provided and must be an Object.")
+    }
+    if(!(args.isGoalState instanceof Function)){
+        errors.push("isGoalState must be provided and must be a Function.")
+    }
+    if(!(args.generateSuccessors instanceof Function)){
+        errors.push("generateSuccessors must be provided and must be a Function.")
+    }
+    if(!(args.distanceBetween instanceof Function)){
+        errors.push("distanceBetween must be provided and must be a Function.")
+    }
+    if(!(args.heuristic instanceof Function)){
+        errors.push("heuristic must be provided and must be a Function.")
+    }
+    if(args.timeLimit !== undefined &&
+        !(Number.isInteger(args.timeLimit))){
+        errors.push("timeLimit is optional but must be an integer if provided.")
+    }
+    if(args.stateAuxiliaryKeys !== undefined &&
+        !(args.stateAuxiliaryKeys instanceof Array) &&
+        args.stateAuxiliaryKeys.every(k => k instanceof String)){
+        errors.push("stateAuxiliaryKeys is optional but must be an array of strings if provided.")
+    }
+
+    return errors;
+}
+
+
+function solve(args){
+    var errors = validateArgs(args);
+
+    if(errors.length > 0){
+        process.send({message: "Arguments provided are invalid, see list of errors.", errors: errors});
+        return;
+    }
+
+    process.send({message: `Starting A-Star solving algorithm at ${Date.now}...`});
+
+    var result = aStar(args.startState,
+        args.isGoalState, args.generateSuccessors, args.distanceBetween,
+        args.heuristic, args.timeLimit, args.stateAuxiliaryKeys);
+
+    process.send({message: `Algorithm terminaded, see result.`, result: result});
+}
 
 const ResultStatus = {
     Successfull: "Solution found successfully.",
     TimeOut: "Set time limit exceeded.",
-    NoSolution: "No solution found.",
-    InvalidArguments: "Provided arguments are invalid, see error list."
+    NoSolution: "No solution found."
 }
 
+
+
 class AStarResult {
-    constructor(path, totalGenerated, totalExpanded, timeDuration, status, errors = []){
+    constructor(path, totalGenerated, totalExpanded, timeDuration, status){
         this.path = path;
         if(path)
             this.pathLength = path.length;
@@ -17,7 +78,6 @@ class AStarResult {
         this.totalExpanded = totalExpanded;
         this.timeDuration = timeDuration;
         this.status = status;
-        this.errors = errors;
     }
 }
 
@@ -46,24 +106,12 @@ class Node {
     }
 }
 
-module.exports = aStar;
-
 function aStar(startState, isGoalState, generateSuccessors, distanceBetween, heuristic,
-    timeLimit = undefined, stateAuxiliaryKeys = [], 
-    progressReport = {frequency: 1000, callback: (progress) => {console.dir(progress)}}){
-    
+    timeLimit = undefined, stateAuxiliaryKeys = []){
     var generatedNodes = 0;
     var expandedNodes = 0;
-    var updatedOpenNodes = 0;
-    var reoppenedClosedNodes = 0;
-    var lastReport = 0;
 
     var startTime = Date.now();
-
-    var errors = validateArgs(arguments);
-    if(errors.length > 0){
-        return new AStarResult(null, generatedNodes, expandedNodes, Date.now() - startTime, ResultStatus.InvalidArguments, errors);
-    }
 
     var hashOptions = {
         excludeKeys: function(key) {
@@ -101,19 +149,6 @@ function aStar(startState, isGoalState, generateSuccessors, distanceBetween, heu
         openNodesMap.delete(stateHash);
 
         var timeDuration = Date.now() - startTime;
-
-        // handle reporting if due
-        var nextReport = Math.floor(timeDuration / progressReport.frequency);
-        if(nextReport > lastReport){
-            progressReport.callback({
-                elapsedTime: timeDuration,
-                nodesGeneratedSoFar: generatedNodes,
-                nodesExpandedSoFar: expandedNodes,
-                updatedOpenNodes: updatedOpenNodes,
-                reoppenedClosedNodes: reoppenedClosedNodes,
-            });
-            lastReport = nextReport;
-        }
 
         // if node is goal state, reconstruct path and return
         if(isGoalState(node.state)){
@@ -159,7 +194,6 @@ function aStar(startState, isGoalState, generateSuccessors, distanceBetween, heu
 
                 openNodesHeap.updateItem(previouslyOpen);
 
-                updatedOpenNodes += 1;
                 continue;
             }
 
@@ -177,8 +211,6 @@ function aStar(startState, isGoalState, generateSuccessors, distanceBetween, heu
 
                 openNodesHeap.push(previouslyClosed);
                 openNodesMap.set(successorHash, previouslyClosed)
-
-                reoppenedClosedNodes += 1;
                 continue;
             }
             
@@ -203,36 +235,4 @@ function aStar(startState, isGoalState, generateSuccessors, distanceBetween, heu
     }
 
     return result;
-}
-
-
-function validateArgs(args){
-    var errors = [];
-
-    if(!(args[0] instanceof Object)){
-        errors.push("startState must be provided and must be an Object.")
-    }
-    if(!(args[1] instanceof Function)){
-        errors.push("isGoalState must be provided and must be a Function.")
-    }
-    if(!(args[2] instanceof Function)){
-        errors.push("generateSuccessors must be provided and must be a Function.")
-    }
-    if(!(args[3] instanceof Function)){
-        errors.push("distanceBetween must be provided and must be a Function.")
-    }
-    if(!(args[4] instanceof Function)){
-        errors.push("heuristic must be provided and must be a Function.")
-    }
-    if(args[5] !== undefined &&
-        !(Number.isInteger(args.timeLimit))){
-        errors.push("timeLimit is optional but must be an integer if provided.")
-    }
-    if(args[6] !== undefined &&
-        !(args.stateAuxiliaryKeys instanceof Array) &&
-        args.stateAuxiliaryKeys.every(k => k instanceof String)){
-        errors.push("stateAuxiliaryKeys is optional but must be an array of strings if provided.")
-    }
-
-    return errors;
 }

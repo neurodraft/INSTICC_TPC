@@ -1,6 +1,5 @@
-var aStar = require('./astar');
 const hash = require('object-hash');
-
+const {fork} = require('child_process');
 
 const moves = {
     up: {x: 0, y: -1},
@@ -509,22 +508,38 @@ const lvl90_player = {x: 13, y: 6};
 // );
 
 var startState = new SokobanState(
-    lvl1_board, lvl1_player,
-    lvl1_boxes, lvl1_goals
+    lvl2_board, lvl2_player,
+    lvl2_boxes, lvl2_goals
 );
 
-var result = aStar(startState, isGoal,
-    generateSuccessors, (a, b) => {if(hash(a.boxes) !== hash(b.boxes)) return 0.5; else return 0.1},
-    heuristic);
+const aStarProcess = fork(__dirname + '/astar-process');
+
+aStarProcess.on('message', message => {
+    console.log(message.message);
+    if(message.errors !== undefined){
+        console.dir(message.errors);
+    }
+    if(message.result !== undefined){
+        printResult(result);
+    }
+});
+
+
+var args = {
+    startState: startState,
+    isGoalState: isGoal,
+    generateSucessors: generateSuccessors,
+    distanceBetween: (a, b) => {if(hash(a.boxes) !== hash(b.boxes)) return 0.5; else return 0},
+    heuristic: heuristic};
     
+aStarProcess.send({action: 'solve', args: args});
+
 // var result = aStar(startState, isGoal,
 //     generateSuccessors, (a, b) => {return 0;},
 //     dumbHeuristic, 6000);
 
-printResult(result);
-
 function printResult(result){
-    if(result.path instanceof Object){
+    if(result.path !== null){
         for(var i = 0; i < result.path.length; i++){
             printState(result.path[i]);
             console.log("-------- --------")
