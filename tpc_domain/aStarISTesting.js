@@ -1,9 +1,10 @@
 const aStarIS = require('./iterative-successors-astar');
-const iterativePaperGrouping = require('./paper-grouping');
+const hash = require('object-hash');
+const iterativePaperGrouping = require('./paper-grouping-agent');
 const fs = require('fs');
 
 let rawdata = fs.readFileSync('iceis2022.json');
-const { sessions, papers, restrictions, preferences, topics } = JSON.parse(rawdata);
+const { sessions, papers, restrictions, preferences, topics, areas } = JSON.parse(rawdata);
 
 var gSessions = sessions.map(s => s.gSessionId).filter((v, i, a) => a.indexOf(v) === i).sort();
 
@@ -20,20 +21,28 @@ var startState = {
 }
 
 function printState(state) {
+
+    let {matches, remainingSessions, remainingPapers, ...rest} = state;
+
     console.log("Matches:")
-    console.dir(state.matches.map(m => {
+    console.dir(matches.map(m => {
         return {
             session: m.session.id,
             papers: m.paperGroup.map(p => p.id),
+            areas: areaVectorToTitles(m.vectorArea),
             topics: topicVectorToTitles(m.topicVector)
         };
     }))
 
     console.log("Remaining Sessions:")
-    console.dir(state.remainingSessions.map(s => s.id));
+    console.dir(remainingSessions.map(s => s.id));
 
     console.log("Remaining Papers:")
-    console.dir(state.remainingPapers.map(p => p.id));
+    console.dir(remainingPapers.map(p => p.id));
+
+     
+    console.log("More:")
+    console.dir(rest);
 }
 
 function topicVectorToTitles(topicVector) {
@@ -46,8 +55,19 @@ function topicVectorToTitles(topicVector) {
     return titles;
 }
 
+function areaVectorToTitles(vectorArea) {
+    var titles = [];
+    for (var i = 0; i < vectorArea.length; i++) {
+        if (vectorArea[i] === 1) {
+            titles.push(areas[i].name);
+        }
+    }
+    return titles;
+}
+
 function isGoalState(state) {
     if (state.remainingPapers.length === 0) {
+        console.log("REACHED END:");
         printState(state);
         return true;
     };
@@ -92,29 +112,34 @@ function innerProduct(vector1, vector2) {
 
 function heuristic(state) {
     var heuristic = 0;
-    
-    heuristic += state.remainingPapers.length;
 
-    var restrictionsVector;
-    state.remainingPapers.forEach(p => {
-        if(restrictionsVector === undefined){
-            restrictionsVector = [...p.restrictionsVector];
-        }else {
-            restrictionsVector = orVectors(restrictionsVector, p.restrictionsVector);
-        }
-    });
-    var sessionsVector = [];
-    gSessions.forEach(gSessionId => {
-        if(state.remainingSessions.some(s => s.gSessionId === gSessionId)){
-            sessionsVector.push(1);
-        }else{
-            sessionsVector.push(0);
-        }
-    });
+    heuristic += state.remainingSessions.length;
 
-    var similarity = innerProduct(sessionsVector, restrictionsVector);
+    if (state.remainingPapers.length > 0) {
+        heuristic += state.remainingPapers.length;
 
-    heuristic += similarity * (sessions.length - state.remainingSessions.length);
+        var restrictionsVector;
+        state.remainingPapers.forEach(p => {
+            if (restrictionsVector === undefined) {
+                restrictionsVector = [...p.restrictionsVector];
+            } else {
+                restrictionsVector = orVectors(restrictionsVector, p.restrictionsVector);
+            }
+        });
+
+        var sessionsVector = [];
+        gSessions.forEach(gSessionId => {
+            if (state.remainingSessions.some(s => s.gSessionId === gSessionId)) {
+                sessionsVector.push(1);
+            } else {
+                sessionsVector.push(0);
+            }
+        });
+
+        var similarity = innerProduct(sessionsVector, restrictionsVector);
+
+        heuristic += similarity;
+    }
 
     return heuristic;
 }
@@ -137,7 +162,9 @@ function createNextSuccessor() {
 
         var session = expansionState.validSessions[expansionState.index];
 
-        var paperGroupNode = iterativePaperGrouper.nextGroup(state,
+        var consumerKey = hash([state, session]);
+
+        var paperGroupNode = iterativePaperGrouper.nextGroup(consumerKey,
             session.duration, session.gSessionId, state.remainingPapers);
 
         if (paperGroupNode === null) {
@@ -162,6 +189,7 @@ function createNextSuccessor() {
                         session: session,
                         paperGroup: paperGroupNode.group,
                         distance: paperGroupNode.distance,
+                        vectorArea: paperGroupNode.vectorArea,
                         topicVector: paperGroupNode.vector,
                         restrictionsVector: paperGroupNode.restrictionsVector,
                         preferencesVector: paperGroupNode.preferencesVector
@@ -180,10 +208,22 @@ function createNextSuccessor() {
 
 var progressReport = {
     frequency: 10000, callback: (progress) => {
-        let { bestSoFar, ...rest } = progress;
-        printState(bestSoFar.state);
+        let { lastExpanded, ...rest } = progress;
+        printState(lastExpanded.state);
         console.dir(rest);
     }
 };
 
-aStarIS(startState, isGoalState, createNextSuccessor(), distanceBetween, heuristic, undefined, undefined, progressReport);
+var result = aStarIS(startState, isGoalState, createNextSuccessor(), distanceBetween, heuristic, undefined, undefined, progressReport);
+
+let {path, ...rest} = result;
+
+var finalState = path.pop();
+
+printState(finalState);
+
+console.dir(rest);
+
+const evaluateMatches = require("./evaluateMatches.js");
+
+console.dir(evaluateMatches(finalState.matches, restrictions, preferences));

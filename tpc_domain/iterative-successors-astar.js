@@ -91,17 +91,14 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
     var result;
 
-    var bestSoFar = null;
+    var lastExpanded = null;
 
     while (!openNodesHeap.empty()) {
         // get lowest f node
         var node = openNodesHeap.pop();
 
-        if (bestSoFar === null) {
-            bestSoFar = node;
-        } else if (node.f < bestSoFar.f) {
-            bestSoFar = node;
-        }
+        lastExpanded = node;
+
 
         // create unique hash of state
         var stateHash = hash(node.state, hashOptions);
@@ -117,7 +114,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
                 nodesFullyExpandedSoFar: expandedNodes,
                 updatedOpenNodes: updatedOpenNodes,
                 reoppenedClosedNodes: reoppenedClosedNodes,
-                bestSoFar: bestSoFar
+                lastExpanded: lastExpanded
             });
             lastReport = nextReport;
         }
@@ -129,7 +126,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
                 result = new AStarResult(reconstructPath(node), generatedNodes, expandedNodes, timeDuration, ResultStatus.Successfull);
                 break;
             }
-        
+
             node.tested = true;
         }
 
@@ -141,77 +138,82 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
             }
         }
 
-        // generate node successor states
-        var successor = nextSuccessor(node.state);
+        var fullyExpanded = false;
 
-        // node fully expanded, dont reinsert in open and add to closed permanently.
-        if (successor === null) {
+        for (var i = 0; i < 8; i++) {
+            // generate node successor states
+            var successor = nextSuccessor(node.state);
+
+            // node fully expanded, dont reinsert in open and add to closed permanently.
+            if (successor === null) {
+                fullyExpanded = true;
+                break;                
+            }
+
+            generatedNodes += 1;
+
+            var successorHash = hash(successor, hashOptions);
+
+            // get distance between parent state and successor state to calculate new g value
+            var distance = distanceBetween(node.state, successor);
+            var g = node.g + distance;
+
+            // try and find existing node in open with same state
+            var previouslyOpen = openNodesMap.get(successorHash);
+            // if it exists and has lower g value, replace open's parent with sucessor's parent and recalculate f
+            if (previouslyOpen !== undefined &&
+                g < previouslyOpen.g) {
+                previouslyOpen.g = g;
+                previouslyOpen.recalculateF();
+                previouslyOpen.parent = node;
+
+                openNodesHeap.updateItem(previouslyOpen);
+
+                updatedOpenNodes += 1;
+                continue;
+            }
+
+            // try and find existing node in closed with same state
+            var previouslyClosed = closedNodesMap.get(successorHash);
+            // if it exists and has lower g value, remove from close, replace parent with sucessor's parent, recalculate f
+            // and insert in open set
+            if (previouslyClosed !== undefined &&
+                g < previouslyClosed.g) {
+                closedNodesMap.delete(successorHash);
+
+                previouslyClosed.g = g;
+                previouslyClosed.recalculateF();
+                previouslyClosed.parent = node;
+
+                openNodesHeap.push(previouslyClosed);
+                openNodesMap.set(successorHash, previouslyClosed)
+
+                reoppenedClosedNodes += 1;
+                continue;
+            }
+
+            // if no nodes with same state found either in open or closed sets,
+            // calculate heuristic and add successor node to open set
+            if (previouslyOpen === undefined && previouslyClosed === undefined) {
+                var successorNode = new Node(
+                    successor, node,
+                    g, heuristic(successor));
+
+                openNodesHeap.push(successorNode);
+                openNodesMap.set(successorHash, successorNode);
+            }
+        }
+
+        if(fullyExpanded){
             // remove node from open map
             openNodesMap.delete(stateHash);
-
             // add current node to closed set
             closedNodesMap.set(stateHash, node);
-
             expandedNodes += 1;
-            continue;
+        } else {
+            //reinsert expanding node in open heap
+            openNodesHeap.push(node);
         }
-
-        generatedNodes += 1;
-
-        var successorHash = hash(successor, hashOptions);
-
-        // get distance between parent state and successor state to calculate new g value
-        var distance = distanceBetween(node.state, successor);
-        var g = node.g + distance;
-
-        // try and find existing node in open with same state
-        var previouslyOpen = openNodesMap.get(successorHash);
-        // if it exists and has lower g value, replace open's parent with sucessor's parent and recalculate f
-        if (previouslyOpen !== undefined &&
-            g < previouslyOpen.g) {
-            previouslyOpen.g = g;
-            previouslyOpen.recalculateF();
-            previouslyOpen.parent = node;
-
-            openNodesHeap.updateItem(previouslyOpen);
-
-            updatedOpenNodes += 1;
-            continue;
-        }
-
-        // try and find existing node in closed with same state
-        var previouslyClosed = closedNodesMap.get(successorHash);
-        // if it exists and has lower g value, remove from close, replace parent with sucessor's parent, recalculate f
-        // and insert in open set
-        if (previouslyClosed !== undefined &&
-            g < previouslyClosed.g) {
-            closedNodesMap.delete(successorHash);
-
-            previouslyClosed.g = g;
-            previouslyClosed.recalculateF();
-            previouslyClosed.parent = node;
-
-            openNodesHeap.push(previouslyClosed);
-            openNodesMap.set(successorHash, previouslyClosed)
-
-            reoppenedClosedNodes += 1;
-            continue;
-        }
-
-        // if no nodes with same state found either in open or closed sets,
-        // calculate heuristic and add successor node to open set
-        if (previouslyOpen === undefined && previouslyClosed === undefined) {
-            var successorNode = new Node(
-                successor, node,
-                g, heuristic(successor));
-
-            openNodesHeap.push(successorNode);
-            openNodesMap.set(successorHash, successorNode);
-        }
-
-        //reinsert expanding node in open heap
-        openNodesHeap.push(node);
-
 
     }
 
