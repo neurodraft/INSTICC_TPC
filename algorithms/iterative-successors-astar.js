@@ -49,7 +49,7 @@ class Node {
 
 module.exports = aStarIS;
 
-function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic,
+function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration = 1,
     timeLimit = undefined, stateAuxiliaryKeys = [],
     progressReport = { frequency: 1000, callback: (progress) => { console.dir(progress) } }) {
 
@@ -140,7 +140,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
         var fullyExpanded = false;
 
-        for (var i = 0; i < 8; i++) {
+        for (var i = 0; i < maxSuccessorsPerIteration; i++) {
             // generate node successor states
             var successor = nextSuccessor(node.state);
 
@@ -246,12 +246,16 @@ function validateArgs(args) {
         errors.push("heuristic must be provided and must be a Function.")
     }
     if (args[5] !== undefined &&
-        !(Number.isInteger(args.timeLimit))) {
-        errors.push("timeLimit is optional but must be an integer if provided.")
+        !(Number.isInteger(args[5]))) {
+        errors.push("maxSuccessorsPerIteration is optional but must be an integer if provided.")
     }
     if (args[6] !== undefined &&
-        !(args.stateAuxiliaryKeys instanceof Array) &&
-        args.stateAuxiliaryKeys.every(k => k instanceof String)) {
+        !(Number.isInteger(args[6]))) {
+        errors.push("timeLimit is optional but must be an integer if provided.")
+    }
+    if (args[7] !== undefined &&
+        !(args[7] instanceof Array) &&
+        args[7].every(k => k instanceof String)) {
         errors.push("stateAuxiliaryKeys is optional but must be an array of strings if provided.")
     }
 

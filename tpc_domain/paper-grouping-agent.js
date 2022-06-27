@@ -198,31 +198,6 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
         return sessionDurations;
     }
 
-    function _nextGroup(consumerData, duration, gSessionId, papersAvailable) {
-        
-
-        // if (durationNodeMap.has(duration)) {
-        //     var nodeList = durationNodeMap.get(duration);
-
-        //     if (nodeList.length > index) {
-        //         var node = nodeList[index];
-        //         consumerIndices[duration.toString()] += 1;
-
-        //         if(hasSessionRestriction(node, gSessionId) ||
-        //         !containsAll(papersAvailable, node.group)) {
-        //             return _nextGroup(consumerIndices, duration, gSessionId, papersAvailable);
-        //         }
-
-        //         return node;
-        //     }
-        // }
-
-        // if (search(duration, gSessionId, papersAvailable)) {
-        //     return _nextGroup(consumerIndices, duration, gSessionId, papersAvailable);
-        // }
-
-        return null;
-    }
 
     function containsAll(superset, subset){
         return subset.every(e => superset.includes(e));
