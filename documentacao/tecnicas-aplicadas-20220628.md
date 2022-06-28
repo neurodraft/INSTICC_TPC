@@ -12,7 +12,7 @@ Este documento representa uma exposição, explicação e reflexão das técnica
 
 O algoritmo A*, na sua variação original, foi implementado genéricamente utilizando uma Priority Queue do tipo Min Heap para lista de nós abertos (ordenação por valor f, garante inserção na posição correta em O(logn) e obtenção em O(1)). [https://github.com/ignlg/heap-js]
 
-É também utilizada uma biblioteca de hashing de objetos [https://github.com/ignlg/heap-js] para gerar hashes correspondentes ao estado e facilmente comparar com outros estados existendes em abertos ou fechados. É mantido em paridade com a Priority Queue de nós abertos um mapa entre hash criptográficas de estados e o nós aberto correspondente para rápidamente verificar e obter um nó previamente criado sem necessidade de percorrer o lista de prioridade. O conjunto de nós fechados é também um mapa entre hash e nó.
+É também utilizada uma biblioteca de hashing de objetos [https://www.npmjs.com/package/object-hash] para gerar hashes correspondentes ao estado e facilmente comparar com outros estados existentes em abertos ou fechados. É mantido em paridade com a Priority Queue de nós abertos um mapa entre hash criptográficas de estados e o nó aberto correspondente para rapidamente verificar e obter um nó previamente criado sem necessidade de percorrer o lista de prioridade. O conjunto de nós fechados é também um mapa entre hash e nó.
 
 É possível configurar um tempo limite para a execução do algoritmo, chaves do objeto do estado que se pretende ignorar na comparação de estados, frequência de reportagem de progresso e uma função de reportagem de progresso.
 
@@ -22,7 +22,7 @@ Esta implementação encontra-se em ``algorithms\astar.js``. Foi testada com o d
 
 Prevendo a necessidade de produzir incrementalmente os sucessores de um nó em expansão, de forma a permitir a progressão para níveis mais fundos em tempo útil em situações em que o número de possíveis sucessores é regularmente na ordem dos milhares para cada novo nó como é o caso das possíveis colocações de qualquer grupo de artigos em qualquer sessão disponível, foi imaginada uma variação adaptável a maioria dos algoritmos de procura em grafos.
 
-A única diferença na interface do algoritmo é a utilização de uma função de sucessores iterativa, ou seja, em vez de obter todos os sucessores obtem-se o próximo disponível até retornar NULL, e um máximo de sucessores a gerar por iteração. Na variação do Depth-First implementada, enquanto um nó não ficar sem novos sucessores disponíveis ao fim de uma interação continua a ser reintroduzido na lista de nós abertos imediatamente antes dos seus filhos.
+A única diferença na interface do algoritmo é a utilização de uma função de sucessores iterativa, ou seja, em vez de obter todos os sucessores obtem-se o próximo disponível até retornar NULL, e um máximo de sucessores a gerar por iteração. Na variação do Depth-First implementada, enquanto um nó não ficar sem novos sucessores disponíveis ao fim de uma iteração continua a ser reintroduzido na lista de nós abertos imediatamente antes dos seus filhos.
 
 Esta implementação encontra-se em ``algorithms\iterative-sucessors-df.js``.
 
@@ -50,9 +50,9 @@ De seguida o algoritmo inicia a procura pelo primeiro (melhor) nó que cumpra a 
    - Se for, é devolvido como próximo melhor conjunto para aquele consumidor.
  - Da próxima vez que o mesmo consumidor ativar o agente, o algoritmo irá continuar a partir do ponto onde ficou e garantir que devolve sempre o próximo nó de menor distância (imporante gerar sucessores antes de retornar nó objetivo).
 
-Esta implementação utiliza  ponteiros/referências para partilhar o mesmo grafo entre múltiplos consumidores, cada um com a sua própria fila de nós abertos.
+Esta implementação utiliza ponteiros/referências para partilhar o mesmo grafo entre múltiplos consumidores, cada um com a sua própria fila de nós abertos.
 
-No domínio do problema, a geração de sucessores consiste em todas as possíveis junções de qualquer um novo artigo à combinação que está a ser expandida. A distância resultante do novo grupo é o máximo entre a distância do nó pai e as distância entre o novo artigo e cada um dos restantes do grupo. É também adicionado ao nó a duração total do grupo, vetores combinados de areas, de tópicos, de restrições e de preferências.
+No domínio do problema, a geração de sucessores consiste em todas as possíveis junções de qualquer um novo artigo à combinação que está a ser expandida. A distância resultante do novo grupo é o máximo valor entre a distância do nó pai e as distância entre o novo artigo e cada um dos restantes do grupo. É também adicionado ao nó a duração total do grupo, vetores combinados de areas, de tópicos, de restrições e de preferências.
 A função de validade verifica se o sucessor não tem restrição para a sessão geral a ser preenchida, só combina artigos na lista de artigos disponíveis e que não excede a duração a preencher. A função objetivo apenas verifica se o conjunto tem mais do que a duração mínima para a sessão.
 
 O agente encontra-se em ``tpc_domain\paper-grouping-agent.js``.
@@ -83,7 +83,7 @@ A heurística desenvolvida em ``tpc_domain\tpcDomain.js`` consiste de momento na
  - O produto interno entre o vector binário de restrições nos artigos por colocar e o vector binário de sessões gerais ainda por preencher (incidências);
  - O número de artigos com preferências mas sem nenhuma ainda garantida.
 
-Com um custo de transição fixo de 1 (profundidade) e a heurística descrita acima foi possível rápidamente obter um resultado melhor que o obtido no depth-first.:
+Com um custo de transição fixo de 1 (profundidade) e a heurística descrita acima foi possível rápidamente obter um resultado melhor que o obtido no depth-first:
 
  - Com um máximo de 8 sucessors por expansão, foi obtido o resultado ``tpc_domain\results\aStarISResult_fixedCost_8mspi``. A solução devolvida em 15,8 segundos é válida face às restrições (ainda não considerando a restrição forte do mesmo indivíduo não poder estar presente simulaneamente em mais do que uma sala) e garante a preferência de sessão a 3 artigos. Gera 219 nós e expande totalmente apenas 1.
 
