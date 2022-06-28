@@ -6,7 +6,7 @@ const {
     preferences
 } = require('./tpcDomain');
 
-var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, 8, undefined, undefined, progressReport);
+var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, 128, undefined, undefined, progressReport);
 
 let {path, ...rest} = result;
 

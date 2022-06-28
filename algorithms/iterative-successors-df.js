@@ -34,11 +34,6 @@ class Node {
         this.parent = parent;
         this.tested = false;
     }
-
-    recalculateF() {
-        this.f = this.g + this.h;
-        return this.f;
-    }
 }
 
 module.exports = DFIS;

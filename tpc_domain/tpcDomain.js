@@ -141,6 +141,22 @@ function heuristic(state) {
         heuristic += similarity;
     }
 
+
+    var preferencesMet = 0;
+
+    state.matches.forEach(match => {
+        preferencesMet += preferences
+            .filter(p => p.sessionId == match.session.gSessionId &&
+                match.paperGroup
+                    .some(paper => paper.id == p.articleId)).length;
+    })
+
+    var amountPapersWithPreferences = preferences
+        .map(p => p.articleId)
+        .filter((v, i, s) => s.indexOf(v) === i).length;
+
+    heuristic +=  (amountPapersWithPreferences - preferencesMet);
+
     return heuristic;
 }
 
