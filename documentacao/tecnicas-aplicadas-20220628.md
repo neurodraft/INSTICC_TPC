@@ -71,7 +71,7 @@ A principal diferença ocorre na reinserção do nó em abertos após uma expans
 
 Esta implementação encontra-se em ``algorithms\iterative-sucessors-astar.js``.
 
-### Resultados da aplicação de Depth-First com Sucessores Iterativos ao problema com auxilio do agente agrupador de artigos
+### Resultados da aplicação de A* com Sucessores Iterativos ao problema com auxilio do agente agrupador de artigos
 
 Foi testada a geração de um horário para os artigos e sessões da ICEIS2022 usando o algoritmo A* com sucessores iterativos, com uma função geradora de sucessores identica à descrita para depth-first. O script de teste é ``tpc_domain\aStarISTesting.js``.
 
