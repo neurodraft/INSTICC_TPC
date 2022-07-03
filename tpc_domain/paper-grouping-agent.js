@@ -62,42 +62,7 @@ function printNode(node) {
     console.log(`Group: [${paperIds.toString()}], Distance: ${node.distance}`);
 }
 
-function addRestrictionsVectors(papers, restrictions, gSessions){
-    for(var i = 0; i < papers.length; i++){
-        //papers[i].restrictions = [];
-        var vector = new Array(gSessions.length).fill(0);
-        for(var j = 0; j < gSessions.length; j++){
-            var sessionId = gSessions[j];
-            if(restrictions.some(r => r.sessionId === sessionId &&
-                r.articleId === papers[i].id)) {
-                    vector[j] = 1;
-                    //papers[i].restrictions.push(sessionId);
-                }
-        }
-        papers[i].restrictionsVector = vector;
-    }
-}
-
-function addPreferencesVectors(papers, preferences, gSessions){
-    for(var i = 0; i < papers.length; i++){
-        //papers[i].preferences = [];
-        var vector = new Array(gSessions.length).fill(0);
-        for(var j = 0; j < gSessions.length; j++){
-            var sessionId = gSessions[j];
-            if(preferences.some(r => r.sessionId === sessionId &&
-                r.articleId === papers[i].id)) {
-                    vector[j] = 1;
-                    //papers[i].preferences.push(sessionId);
-                }
-        }
-        papers[i].preferencesVector = vector;
-    }
-}
-
-function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
-    addRestrictionsVectors(papers, restrictions, gSessions);
-    addPreferencesVectors(papers, preferences, gSessions);
-
+function iterativePaperGrouper(papers, gSessions) {
     var { distanceMatrix, paperIndexMap } = calculateDistanceMatrix(papers);
 
     var startingNodes = [];
@@ -129,6 +94,8 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
 
             var preferencesVector = orVectors(group[0].preferencesVector, group[1].preferencesVector);
 
+            var authorsVector = orVectors(group[0].authorsVector, group[1].authorsVector);
+
             var duration = group.map(p => p.duration).reduce((accumulator, curr) => accumulator + curr);
 
             var node = {
@@ -139,7 +106,8 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
                 vector: vector,
                 vectorArea : vectorArea,
                 restrictionsVector: restrictionsVector,
-                preferencesVector: preferencesVector
+                preferencesVector: preferencesVector,
+                authorsVector: authorsVector
             }
 
             generateNodesMap.set(groupHash, node);
@@ -238,6 +206,7 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
                     var vectorArea = orVectors(parent.vectorArea, paper.vectorArea);
                     var preferencesVector = orVectors(parent.preferencesVector, paper.preferencesVector);
                     var restrictionsVector = orVectors(parent.restrictionsVector, paper.restrictionsVector);
+                    var authorsVector = orVectors(parent.authorsVector, paper.authorsVector);
                     var duration = parent.duration + paper.duration;
 
                     var node = {
@@ -248,7 +217,8 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
                         vector: vector,
                         vectorArea: vectorArea,
                         preferencesVector: preferencesVector,
-                        restrictionsVector: restrictionsVector
+                        restrictionsVector: restrictionsVector,
+                        authorsVector: authorsVector
                     }
                     generateNodesMap.set(newGroupHash, node);
                     parent.children.push(node);
@@ -257,7 +227,7 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
             }
     }
 
-    function search(consumerData, sessionDuration, gSessionId, papersAvailable) {
+    function search(consumerData, sessionDuration, gSessionId, papersAvailable, simultaneousAuthorsVector) {
 
         let openNodesHeap = consumerData.openNodesHeap;
 
@@ -271,7 +241,8 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
             closest.children.forEach(child => {
                 if(child.duration <= sessionDuration &&
                     containsAll(papersAvailable, child.group) &&
-                    !hasSessionRestriction(child, gSessionId)){
+                    !hasSessionRestriction(child, gSessionId) &&
+                    validAuthors(child.authorsVector, simultaneousAuthorsVector)){
                     openNodesHeap.push(child);
                 }
             })
@@ -286,7 +257,11 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
         return null;
     }
 
-    function nextGroup(consumerKey, sessionDuration, gSessionId, papersAvailable) {
+    function validAuthors(groupAuthors, simultaneousAuthors){
+        return innerProduct(groupAuthors, simultaneousAuthors) === 0;
+    }
+
+    function nextGroup(consumerKey, sessionDuration, gSessionId, papersAvailable, simultaneousAuthorsVector) {
 
         var consumerData;
         if (!consumerDataMap.has(consumerKey)) {
@@ -297,7 +272,8 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
             startingNodes.forEach(n => {
                 if(n.duration <= sessionDuration &&
                     containsAll(papersAvailable, n.group) &&
-                    !hasSessionRestriction(n, gSessionId)){
+                    !hasSessionRestriction(n, gSessionId) &&
+                    validAuthors(n.authorsVector, simultaneousAuthorsVector)){
                     openNodesHeap.push(n);
                 }
             })
@@ -310,7 +286,7 @@ function iterativePaperGrouper(papers, restrictions, preferences, gSessions) {
             consumerData = consumerDataMap.get(consumerKey);
         }
 
-        return search(consumerData, sessionDuration, gSessionId, papersAvailable);
+        return search(consumerData, sessionDuration, gSessionId, papersAvailable, simultaneousAuthorsVector);
     }
 
     return { nextGroup: nextGroup };

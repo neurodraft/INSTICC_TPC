@@ -1,13 +1,24 @@
 const hash = require('object-hash');
 const iterativePaperGrouping = require('./paper-grouping-agent');
 const fs = require('fs');
+const { match } = require('assert');
 
 let rawdata = fs.readFileSync('iceis2022.json');
 const { sessions, papers, restrictions, preferences, topics, areas } = JSON.parse(rawdata);
 
 var gSessions = sessions.map(s => s.gSessionId).filter((v, i, a) => a.indexOf(v) === i).sort();
 
-const iterativePaperGrouper = iterativePaperGrouping(papers, restrictions, preferences, gSessions);
+var authors = [];
+papers.forEach(paper => {
+    authors = [...authors, ...paper.authors];
+});
+authors = authors.filter((v, i, a) => a.indexOf(v) === i).sort();
+
+addRestrictionsVectors(papers, restrictions, gSessions);
+addPreferencesVectors(papers, preferences, gSessions);
+addAuthorsVectors(papers, authors);
+
+const iterativePaperGrouper = iterativePaperGrouping(papers, gSessions);
 
 var remainingPapers = [...papers].sort();
 var remainingSessions = [...sessions].sort();
@@ -17,6 +28,48 @@ var startState = {
     remainingPapers: remainingPapers,
     matches: [
     ]
+}
+
+function addRestrictionsVectors(papers, restrictions, gSessions){
+    for(var i = 0; i < papers.length; i++){
+        //papers[i].restrictions = [];
+        var vector = new Array(gSessions.length).fill(0);
+        for(var j = 0; j < gSessions.length; j++){
+            var sessionId = gSessions[j];
+            if(restrictions.some(r => r.sessionId === sessionId &&
+                r.articleId === papers[i].id)) {
+                    vector[j] = 1;
+                    //papers[i].restrictions.push(sessionId);
+                }
+        }
+        papers[i].restrictionsVector = vector;
+    }
+}
+
+function addPreferencesVectors(papers, preferences, gSessions){
+    for(var i = 0; i < papers.length; i++){
+        var vector = new Array(gSessions.length).fill(0);
+        for(var j = 0; j < gSessions.length; j++){
+            var sessionId = gSessions[j];
+            if(preferences.some(r => r.sessionId === sessionId &&
+                r.articleId === papers[i].id)) {
+                    vector[j] = 1;
+                }
+        }
+        papers[i].preferencesVector = vector;
+    }
+}
+
+function addAuthorsVectors(papers, authors){
+    for(var i = 0; i < papers.length; i++){
+        var vector = new Array(authors.length).fill(0);
+        for(var j = 0; j < authors.length; j++){
+            if(papers[i].authors.includes(authors[j])) {
+                    vector[j] = 1;
+                }
+        }
+        papers[i].authorsVector = vector;
+    }
 }
 
 function printState(state) {
@@ -160,6 +213,16 @@ function heuristic(state) {
     return heuristic;
 }
 
+function gSessionSimultaneousAuthorsVector(matches, gSessionId){
+    var authorsVector = new Array(authors.length).fill(0);;
+    matches.forEach(m => {
+        if(m.session.gSessionId === gSessionId){
+            authorsVector = orVectors(authorsVector, m.authorsVector);
+        }
+    });
+    return authorsVector;
+}
+
 function createNextSuccessor() {
     const stateExpansionStateMap = new Map();
 
@@ -178,10 +241,12 @@ function createNextSuccessor() {
 
         var session = expansionState.validSessions[expansionState.index];
 
+        var simultaneousAuthorsVector = gSessionSimultaneousAuthorsVector(state.matches, session.gSessionId);
+
         var consumerKey = hash([state, session]);
 
         var paperGroupNode = iterativePaperGrouper.nextGroup(consumerKey,
-            session.duration, session.gSessionId, state.remainingPapers);
+            session.duration, session.gSessionId, state.remainingPapers, simultaneousAuthorsVector);
 
         if (paperGroupNode === null) {
             expansionState.validSessions.splice(expansionState.index, 1);
@@ -208,7 +273,8 @@ function createNextSuccessor() {
                         vectorArea: paperGroupNode.vectorArea,
                         topicVector: paperGroupNode.vector,
                         restrictionsVector: paperGroupNode.restrictionsVector,
-                        preferencesVector: paperGroupNode.preferencesVector
+                        preferencesVector: paperGroupNode.preferencesVector,
+                        authorsVector: paperGroupNode.authorsVector
                     }
                 ].sort()
             }
