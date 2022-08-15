@@ -1,0 +1,1150 @@
+!!! FINAL STATE:
+G-Sessions:
+-------------------
+G-SESSION 17484 | 105 min
+article groups:
+ - 1:
+{
+  papersIds: [ 108685, 109860, 110324, 110715, 110906 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Industrial Applications of Artificial Intelligence',
+    'Advanced Applications of Neural Network',
+    'Problem Solving',
+    'Natural Language Interfaces and Systems',
+    'Deep Learning'
+  ],
+  authors: [
+    'Alice Nannini',    'Eduardo Luz',
+    'Eduardo Neto',     'Federico Galatolo',
+    'Felipe Brito',     'Francisco Praciano',
+    'Gigliola Vaglini', 'Gladston Moreira',
+    'Guilherme Silva',  'Iago Chaves',
+    'Ivan Tarun',       'Javam Machado',
+    'Jose Monteiro',    'Lucas Sena',
+    'Ma. Estuar',       'Mariana Mota',
+    'Mario Cimino',     'Patricia Abu',
+    'Pedro Silva',      'Vidal Lopez'
+  ],
+  duration: 105,
+  distance: 1
+}
+ - 2:
+{
+  papersIds: [ 110332, 110438, 110671, 110830 ],
+  areas: [ 'Human-Computer Interaction' ],
+  topics: [
+    'Software Engineering',
+    'Guidelines, Principles, Patterns and Standards',
+    'Interface Design',
+    'Accessibility and Usability',
+    'User Experience',
+    'Design and Evaluation'
+  ],
+  authors: [
+    'Ana Oran',           'Bruna Ferreira',
+    'Bruno Gadelha',      'Carlos Romeiro',
+    'Eduardo Jesus',      'Gabriel Teixeira',
+    'Gretchen De Macedo', 'Guilherme Guerino',
+    'Lucas Viana',        'Luciana Zaina',
+    'Marcelo Morandini',  'Pedro Araújo',
+    'Pedro Valle',        'Renato Balancieri',
+    'Thiago Coleti',      'Walter Nakamura',
+    'Williamson Silva'
+  ],
+  duration: 90,
+  distance: 2
+}
+ - 3:
+{
+  papersIds: [ 110005, 110668, 110788, 110880, 111193 ],
+  areas: [ 'Databases and Information Systems Integration' ],
+  topics: [
+    'Coupling and Integrating Heterogeneous Data Sources',
+    'Enterprise Resource Planning',
+    'Performance Evaluation and Benchmarking',
+    'Blockchain Systems',
+    'Big Data',
+    'Strategic Decision Support Systems',
+    'Multi-Agent Systems',
+    'Scheduling and Planning',
+    'Software Engineering',
+    'Knowledge Management',
+    'Semantic Web Technologies and Applications',
+    'Emerging Applications of Agent-based Systems',
+    'Models and Frameworks',
+    'Business Modelling and Business Process Management'
+  ],
+  authors: [
+    'A. Gallardo',
+    'Andrea De Mauro',
+    'C. León',
+    'D. Larios',
+    'Giseli Lopes',
+    'Guenther Ruhe',
+    'Hardik Yardik',
+    'Henrique Rodrigues',
+    'J. Guerra',
+    'J. Guerrero',
+    'Julian Togelius',
+    'Marco Greco',
+    'Maria Campos',
+    'Michele Grimaldi',
+    'Natalia Queiroz de Oliveira',
+    'Qi Zhao',
+    'Razieh Saremi',
+    'Shichao Lin',
+    'Simone Malacaria',
+    'Vânia Borges',
+    'Ye Yang',
+    'Yifeng Zhou'
+  ],
+  duration: 105,
+  distance: 3.5
+}
+-------------------
+G-SESSION 17504 | 105 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110360, 110431, 110503, 110706, 111150 ],
+  areas: [ 'Databases and Information Systems Integration' ],
+  topics: [
+    'Databases in the Cloud',
+    'Data Mining',
+    'Distributed Database Systems',
+    'Natural Language Interfaces and Systems'
+  ],
+  authors: [
+    ' Gunawan',            'Alex Garcia',
+    'Amanda Venceslau',    'Breno Oliveira',
+    'Cristiane Nobre',     'Eduardo Borges',
+    'Eric Gondran',        'Evilasio Costa Junior',
+    'Giancarlo Lucca',     'Helida Santos',
+    'Ismayle Santos',      'Luis Zarate',
+    'Mark Song',           'Paulo Lana',
+    'Pedro Oliveira',      'Rafael Berri',
+    'Ronaldo Goldschmidt', 'Rossana Andrade',
+    'Samir Ramos'
+  ],
+  duration: 105,
+  distance: 1
+}
+ - 2:
+{
+  papersIds: [ 110336, 110452, 110612, 110771 ],
+  areas: [ 'Information Systems Analysis and Specification' ],
+  topics: [
+    'Knowledge Management',
+    'Security',
+    'Dependable Systems for Critical Applications',
+    'Trust and Privacy',
+    'Mobile Security Issues',
+    'Ethics, Privacy and Security of HCI'
+  ],
+  authors: [
+    'Anthony Larcher-Gore',
+    'Keita Emura',
+    'Nestori Syynimaa',
+    'Ryan Cobb',
+    'Ryo Nojima',
+    'Ryoma Ito',
+    'Sachiko Kanamori',
+    'Tomasz Sierotowicz',
+    'Yohei Watanabe'
+  ],
+  duration: 90,
+  distance: 2.5
+}
+ - 3:
+{
+  papersIds: [ 109728, 110624, 110800, 111141 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Group Decision Support Systems',
+    'Strategic Decision Support Systems',
+    'Applications of Expert Systems',
+    'Operational Research',
+    'Problem Solving',
+    'Natural Language Interfaces and Systems',
+    'Social Intelligence',
+    'Creativity',
+    'Electronic Commerce',
+    'Cyber-Social Systems'
+  ],
+  authors: [
+    'Alexander Brodsky',
+    'Angelo Columbini',
+    'Carlos Valêncio',
+    'Daniela Claro',
+    'Fernando Boccanera',
+    'Geraldo Zafalon',
+    'João Gondim',
+    'Luís Silva',
+    'Marlo Souza',
+    'Xu Han'
+  ],
+  duration: 95,
+  distance: 4
+}
+-------------------
+G-SESSION 17495 | 90 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110674, 110933, 111019, 111084 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Industrial Applications of Artificial Intelligence',
+    'Multi-Agent Systems',
+    'Scheduling and Planning',
+    'Operational Research',
+    'Problem Solving',
+    'Deep Learning'
+  ],
+  authors: [
+    'Adam Błachowicz',
+    'Andrzej Chmielowiec',
+    'Bernhard Mitschang',
+    'Christian Weber',
+    'Christine Markarian',
+    'Leszek Klich',
+    'Marco Spieß',
+    'Peter Reimann',
+    'Victor Pugliese',
+    'Weronika Woś'
+  ],
+  duration: 90,
+  distance: 1.5
+}
+ - 2:
+{
+  papersIds: [ 110315, 110492, 110676, 110929 ],
+  areas: [ 'Enterprise Architecture' ],
+  topics: [
+    'Deep Learning',
+    'Profiling and Recommendation Systems',
+    'Interaction Techniques and Devices',
+    'Collaborative and Social Interaction',
+    'User Behavior Analysis',
+    'Machine Learning in HCI',
+    'Business Modelling and Business Process Management',
+    'Methods, Processes and Patterns for EA Development',
+    'EA Tools and Applications'
+  ],
+  authors: [
+    'Caroline Picanço',
+    'El Haddouchi',
+    'Ella Roubtsova',
+    'Myriel Fichtner',
+    'Sebastian Petter',
+    'Simone Santos',
+    'Stef Joosten',
+    'Stefan Jablonski',
+    'Stefan Schönig'
+  ],
+  duration: 90,
+  distance: 2.75
+}
+ - 3:
+{
+  papersIds: [ 109597, 109976, 110740, 110772 ],
+  areas: [ 'Information Systems Analysis and Specification' ],
+  topics: [
+    'Software Engineering',
+    'Modelling of Distributed Systems',
+    'Ontology Engineering',
+    'Simulation',
+    'Tools, Techniques and Methodologies for System Development',
+    'Model Driven Architectures and Engineering',
+    'Semiotics in Information Systems',
+    'Software Metrics and Measurement',
+    'Agile Methodologies and Applications',
+    'Domain Specific and Multi-aspect IS Engineering',
+    'Digital Transformation',
+    'Enterprise Architecture and Industry 4.0'
+  ],
+  authors: [
+    'Achim Reiz',
+    'Arndt Lüder',
+    'Dietmar Winkler',
+    'Elmar Kiesling',
+    'Felix Rinker',
+    'Hendrik van der Valk',
+    'Kristof Meixner',
+    'Kurt Sandkuhl',
+    'Martin Tomczyk',
+    'Sebastian Kropatschek',
+    'Silvia Vergilio',
+    'Stefan Biffl',
+    'Thorsten Steuer',
+    'Wesley Assunção',
+    'Willian Mendonça'
+  ],
+  duration: 80,
+  distance: 4
+}
+-------------------
+G-SESSION 17482 | 90 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110377, 110790, 111159, 111161 ],
+  areas: [ 'Information Systems Analysis and Specification' ],
+  topics: [
+    'Software Engineering',
+    'Requirements Analysis and Management',
+    'Tools, Techniques and Methodologies for System Development',
+    'Project Management',
+    'Agile Methodologies and Applications'
+  ],
+  authors: [
+    'Afonso Sales',
+    'Alan Santos',
+    'Cleyton Rodrigues',
+    'Denis Marques',
+    'Everton Quadros',
+    'Lisandra Fontoura',
+    'Luis Barbosa',
+    'Nicolas Nascimento',
+    'Otávio Mello',
+    'Rafael Chanin',
+    'Rafael Prikladnicki',
+    'Regis Lahm',
+    'Tâmara Dallegrave',
+    'Wylliams Santos'
+  ],
+  duration: 85,
+  distance: 1.5
+}
+ - 2:
+{
+  papersIds: [ 109937, 110025, 110400, 110908 ],
+  areas: [ 'Software Agents and Internet Computing' ],
+  topics: [
+    'Operational Research',
+    'Social Intelligence',
+    'Software Engineering',
+    'Collaborative Computing',
+    'Electronic Commerce',
+    'Profiling and Recommendation Systems',
+    'Internet of Things'
+  ],
+  authors: [
+    'Corina Masanti',
+    'Edy Portmann',
+    'Goloviatinski Sergiy',
+    'Herbelin Ludovic',
+    'Jhonny Pincay',
+    'José Mancera',
+    'Liana Carvalho',
+    'Lilian Candido',
+    'Luca Rolshoven',
+    'Luis Terán',
+    'Rodrigo Campiolo',
+    'Rossana Andrade',
+    'Thiago França',
+    'Valéria Lelli'
+  ],
+  duration: 90,
+  distance: 2.5
+}
+ - 3:
+{
+  papersIds: [ 109391, 109457, 110637, 110842 ],
+  areas: [ 'Enterprise Architecture' ],
+  topics: [
+    'Human Factors',
+    'Enterprise Engineering',
+    'Models and Frameworks',
+    'Business Modelling and Business Process Management',
+    'Business-IT Allignment',
+    'EA Adoption and Governance',
+    'Measurements, Metrics and Evaluation of EA Artefacts and Processes',
+    'Evolution of EA',
+    'Digital Transformation',
+    'EA Tools and Applications',
+    'Supply Chain Planning and Management'
+  ],
+  authors: [
+    'Alex Mircoli',
+    'Andrea Chiorrini',
+    'Aurelia Noran',
+    'Claudia Diamantini',
+    'Domenico Potena',
+    'Guilherme Wiedenhoft',
+    'Knut Hinkelmann',
+    'Maja Spahic-Bogdanovic',
+    'Ovidiu Noran',
+    'Pedro Fernandes',
+    'Rúben Pereira'
+  ],
+  duration: 80,
+  distance: 3.5
+}
+-------------------
+G-SESSION 17503 | 90 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110620, 110714, 110836, 111151 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Industrial Applications of Artificial Intelligence',
+    'Advanced Applications of Neural Network',
+    'Natural Language Interfaces and Systems',
+    'Deep Learning',
+    'Digital Transformation'
+  ],
+  authors: [
+    'Alexander Smirnov',  'Alimed Celecia',
+    'Ana Mangeth',        'Antônio Martins',
+    'Bihi Sabiri',        'Bouchra El Asri',
+    'Cesar Cury',         'Diethard Frank',
+    'Elena Minina',       'Felipe Brito',
+    'Francisco Praciano', 'Gustavo Coelho',
+    'Iago Chaves',        'Isabella Frajhof',
+    'Javam Machado',      'Jefferson de Sousa',
+    'Jose Monteiro',      'Marco Casanova',
+    'Maria Lima',         'Martin Kovacs',
+    'Maryem Rhanoui',     'Melissa Cavaliere',
+    'Nikolay Teslya',     'a Shilov'
+  ],
+  duration: 90,
+  distance: 1.5
+}
+ - 2:
+{
+  papersIds: [ 110445, 110813, 110881, 110928 ],
+  areas: [ 'Databases and Information Systems Integration' ],
+  topics: [
+    'Enterprise Resource Planning',
+    'Query Languages and Query Processing',
+    'Database Security',
+    'Tools, Techniques and Methodologies for System Development',
+    'Modelling Formalisms, Languages, and Notations (E.G. UML, ER Variants)'
+  ],
+  authors: [
+    'Carlos Pantoja',
+    'Elder Costa',
+    'Elder Rodrigues',
+    'Fábio Basso',
+    'Inge van de Weerd',
+    'Janis Grabis',
+    'Janis Peksa',
+    'Jonnathan Lopes',
+    'João Lorenzo de Siqueira',
+    'Maicon Bernardino',
+    'Nilson Lazarin',
+    'Renee Albrecht',
+    'Sietse Overbeek'
+  ],
+  duration: 85,
+  distance: 2
+}
+ - 3:
+{
+  papersIds: [ 110142, 110680, 110897, 111163 ],
+  areas: [ 'Human-Computer Interaction' ],
+  topics: [
+    'Data Mining',
+    'Big Data',
+    'Knowledge Management',
+    'Requirements Analysis and Management',
+    'Web Services',
+    'Trust and Privacy',
+    'HCI on Enterprise Information Systems',
+    'Human Factors',
+    'Guidelines, Principles, Patterns and Standards',
+    'Interaction Techniques and Devices',
+    'Interface Design',
+    'Accessibility and Usability',
+    'User Experience',
+    'Design and Evaluation',
+    'Digital Transformation'
+  ],
+  authors: [
+    'Andreas Goerre',
+    'Anke Schüll',
+    'Arif Cerit',
+    'Bettina Schneider',
+    'Emanuel Löffler',
+    'Florian Matthes',
+    'Gloria Bondel',
+    'Laura Brocksieper',
+    'Petra Asprion',
+    'Thomas Osterland',
+    'Thomas Rose'
+  ],
+  duration: 90,
+  distance: 5
+}
+-------------------
+G-SESSION 17505 | 90 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110018, 110090, 110829, 111138 ],
+  areas: [ 'Information Systems Analysis and Specification' ],
+  topics: [
+    'Software Engineering',
+    'Tools, Techniques and Methodologies for System Development',
+    'Modelling Formalisms, Languages, and Notations (E.G. UML, ER Variants)',
+    'Human Factors'
+  ],
+  authors: [
+    'Alberto Tavares De Souza',
+    'Amel Bennaceur',
+    'Anderson Amorim',
+    'Andrea Zisman',
+    'Auri Vincenzi',
+    'Geraldo Zafalon',
+    'Glauco Pedrosa',
+    'John Gardenghi',
+    'Letícia Santos',
+    'Matheus Andrade',
+    'Paul Akiki',
+    'Rafael Barbosa',
+    'Rejane Figueiredo',
+    'Victor Pinto',
+    'Vitoria Gomes'
+  ],
+  duration: 90,
+  distance: 1
+}
+ - 2:
+{
+  papersIds: [ 110401, 110867, 110886, 111012 ],
+  areas: [ 'Human-Computer Interaction' ],
+  topics: [
+    'Software Engineering',
+    'Tools, Techniques and Methodologies for System Development',
+    'Human Factors',
+    'Interface Design',
+    'Emotional and Affective Computing',
+    'User Behavior Analysis',
+    'Ethics, Privacy and Security of HCI'
+  ],
+  authors: [
+    'Corina Matei',
+    'Dumitru Borțun',
+    'Emanuel Duarte',
+    'Gcinizwe Dlamini',
+    'Giancarlo Succi',
+    'Josiane Pimenta',
+    'Julio Reis',
+    'Kurt Sandkuhl',
+    'Maria Cernat',
+    'Maria De Queiroz',
+    'Michael Klotz',
+    'Nataliya Tupikina',
+    'Susanne Marx'
+  ],
+  duration: 90,
+  distance: 2.5
+}
+ - 3:
+{
+  papersIds: [ 109599, 110182, 110390, 110455 ],
+  areas: [ 'Databases and Information Systems Integration' ],
+  topics: [
+    'Coupling and Integrating Heterogeneous Data Sources',
+    'Organisational Issues on Systems Integration',
+    'Databases in the Cloud',
+    'Data Warehouses and OLAP',
+    'Large Scale Databases',
+    'Big Data',
+    'Operational Research',
+    'Creativity',
+    'Software Engineering',
+    'Requirements Analysis and Management',
+    'Model Driven Architectures and Engineering',
+    'Semantic Web Technologies and Applications',
+    'Interface Design',
+    'User Experience',
+    'Digital Transformation',
+    'Supply Chain Planning and Management'
+  ],
+  authors: [
+    'Anderson C. Carniel',
+    'Beatrice Bolsi',
+    'Cristina D. Aguiar',
+    'Daniel Moreira',
+    'Edna Canedo',
+    'Emille Cançado',
+    'Ian Bandeira',
+    'José Neto',
+    'João P. C. Castro',
+    'Lucas M. F. Romero',
+    'Luís Amaral',
+    'Manuel Iori',
+    'Nilson Mendes',
+    'Pedro Costa',
+    'Susanna Campher'
+  ],
+  duration: 90,
+  distance: 6.25
+}
+-------------------
+G-SESSION 17496 | 75 min
+article groups:
+ - 1:
+{
+  papersIds: [ 110372, 110433, 110625 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Data Mining',
+    'Industrial Applications of Artificial Intelligence',
+    'Strategic Decision Support Systems',
+    'Applications of Expert Systems'
+  ],
+  authors: [
+    'Alex Rêgo',
+    'Damires Fernandes',
+    'E. N. Da Rocha',
+    'J. M. do Amaral',
+    'M. Bentes',
+    'P. Coelho',
+    'Tobias Meisen',
+    'Tristan Langer',
+    'Victor Silva',
+    'Viktor Welbers'
+  ],
+  duration: 70,
+  distance: 1
+}
+ - 2:
+{
+  papersIds: [ 109694, 109979, 110308 ],
+  areas: [ 'Enterprise Architecture' ],
+  topics: [
+    'Models and Frameworks',
+    'Business Modelling and Business Process Management',
+    'EA Adoption and Governance',
+    'Methods, Processes and Patterns for EA Development',
+    'Digital Transformation',
+    'Supply Chain Planning and Management'
+  ],
+  authors: [
+    'Anna-Maria Nitsche',
+    'Irja Shaanika',
+    'Jan Busch',
+    'Tiko Iyamu',
+    'Tobias Wulfert',
+    'Wibke Kusturica'
+  ],
+  duration: 65,
+  distance: 3
+}
+ - 3:
+{
+  papersIds: [ 109870, 110686, 110817 ],
+  areas: [ 'Information Systems Analysis and Specification' ],
+  topics: [
+    'Coupling and Integrating Heterogeneous Data Sources',
+    'Data Mining',
+    'Operational Research',
+    'Software Engineering',
+    'Modelling of Distributed Systems',
+    'Security',
+    'Tools, Techniques and Methodologies for System Development',
+    'Model Driven Architectures and Engineering',
+    'Project Management',
+    'Software Metrics and Measurement',
+    'Agile Methodologies and Applications',
+    'Domain Specific and Multi-aspect IS Engineering',
+    'HCI on Enterprise Information Systems',
+    'User Experience'
+  ],
+  authors: [
+    'Albert Zündorf',      'Anselmo Paiva',
+    'Aristófanes Silva',   'Bodo Kraft',
+    'Carlos Castro',       'Darlan Quintanilha',
+    'Erika Alves',         'Geraldo Braz Junior',
+    'Hendrik Karwanni',    'Igor Forain',
+    'Italo Santos',        'João Almeida',
+    'Luis Rivero',         'Michael Sildatke',
+    'Rafael Sousa Júnior', 'Robson Albuquerque',
+    'Samira Barbosa',      'Simara Rocha'
+  ],
+  duration: 65,
+  distance: 5
+}
+-------------------
+G-SESSION 18136 | 75 min
+article groups:
+ - 1:
+{
+  papersIds: [ 109548, 109916, 111089 ],
+  areas: [ 'Enterprise Architecture' ],
+  topics: [
+    'Business Modelling and Business Process Management',
+    'Digital Transformation'
+  ],
+  authors: [
+    'Augusto Modesto',  'César França',
+    'Danilo Dutra',     'Eduardo Peixoto',
+    'Flávia Santoro',   'Geber Ramalho',
+    'Hector Paulo',     'John Gardenghi',
+    'Laura Martins',    'Letícia Santos',
+    'Lucas Boaventura', 'Rafael Barbosa',
+    'Rafael Furtado',   'Rejane Figueiredo',
+    'Simone Santos'
+  ],
+  duration: 75,
+  distance: 1
+}
+ - 2:
+{
+  papersIds: [ 109973, 110432, 111149 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Industrial Applications of Artificial Intelligence',
+    'Strategic Decision Support Systems',
+    'Operational Research',
+    'Deep Learning',
+    'Tools, Techniques and Methodologies for System Development'
+  ],
+  authors: [
+    'Ana Furtado',
+    'Anderson Lima',
+    'Bihi Sabiri',
+    'Bouchra El Asri',
+    'Luciano Monteiro',
+    'Marek Hütsch',
+    'Maryem Rhanoui',
+    'Tobias Wulfert'
+  ],
+  duration: 75,
+  distance: 2
+}
+ - 3:
+{
+  papersIds: [ 110607, 110656, 110774 ],
+  areas: [
+    'Artificial Intelligence and Decision Support Systems',
+    'Human-Computer Interaction'
+  ],
+  topics: [
+    'Coupling and Integrating Heterogeneous Data Sources',
+    'Data Mining',
+    'Performance Evaluation and Benchmarking',
+    'Industrial Applications of Artificial Intelligence',
+    'Advanced Applications of Neural Network',
+    'Problem Solving',
+    'Natural Language Interfaces and Systems',
+    'Deep Learning',
+    'Tools, Techniques and Methodologies for System Development',
+    'Web Services',
+    'Conversational Agents',
+    'Guidelines, Principles, Patterns and Standards',
+    'Collaborative and Social Interaction',
+    'User Behavior Analysis'
+  ],
+  authors: [
+    'Allan M. de Souza',
+    'Diego Silva',
+    'Eduardo Borges',
+    'Giancarlo Lucca',
+    'Jader C. de Sá',
+    'Julio Reis',
+    'Junior Zilles',
+    'Leandro Villas',
+    'Matheus Sanches',
+    'Rafael R. de Souza',
+    'Stanislav Selitskiy'
+  ],
+  duration: 65,
+  distance: 8.75
+}
+-------------------
+G-SESSION 18137 | 60 min
+article groups:
+ - 1:
+{
+  papersIds: [ 109769, 110350, 110644 ],
+  areas: [ 'Artificial Intelligence and Decision Support Systems' ],
+  topics: [
+    'Data Mining',
+    'Industrial Applications of Artificial Intelligence',
+    'Scheduling and Planning',
+    'Operational Research',
+    'Problem Solving',
+    'Models and Frameworks',
+    'Business Modelling and Business Process Management'
+  ],
+  authors: [
+    'Christine Markarian',
+    'Firas Gharbi',
+    'Lorena Bruno',
+    'Mahsa Pourbafrani',
+    'Stéphane Julia',
+    'Wil M. P. van der Aalst'
+  ],
+  duration: 60,
+  distance: 2
+}
+ - 2:
+{
+  papersIds: [ 109991, 110296, 110407 ],
+  areas: [ 'Databases and Information Systems Integration' ],
+  topics: [
+    'Data Mining',
+    'Big Data',
+    'Problem Solving',
+    'Knowledge Management',
+    'Requirements Analysis and Management',
+    'User Experience',
+    'Design and Evaluation',
+    'Business Modelling and Business Process Management'
+  ],
+  authors: [
+    'Andreas Nürnberger',
+    'Celio Trois',
+    'Christian Mertens',
+    'Dennis G. J. C. Maneschijn',
+    'Faiza A. Bukhsh',
+    'Hegler Tissot',
+    'Luis Erpen de Bona',
+    'Marcos Fabro',
+    'Maria Franciscatto',
+    'Maria-Eugenia Iacob',
+    'Rob H. Bemthuis'
+  ],
+  duration: 60,
+  distance: 3.5
+}
+ - 3:
+{
+  papersIds: [ 109783, 110593 ],
+  areas: [ 'Software Agents and Internet Computing' ],
+  topics: [
+    'Interoperability',
+    'Internet of Things',
+    'Distributed Systems',
+    'Cyber-Social Systems',
+    'Emerging Applications of Agent-based Systems',
+    'Business Modelling and Business Process Management',
+    'Methods, Processes and Patterns for EA Development',
+    'Digital Transformation',
+    'Enterprise Architecture and Industry 4.0'
+  ],
+  authors: [
+    'André Borges',
+    'Christoph Stoiber',
+    'Diego Antunes',
+    'Gleifer Alves',
+    'Lucas Sakurada',
+    'Milton Boos Junior',
+    'Paulo Alves',
+    'Paulo Leitão',
+    'Stefan Schönig'
+  ],
+  duration: 45,
+  distance: 4
+}
+ - 4:
+{
+  papersIds: [ 109835, 110846, 110966 ],
+  areas: [
+    'Databases and Information Systems Integration',
+    'Enterprise Architecture'
+  ],
+  topics: [
+    'Coupling and Integrating Heterogeneous Data Sources',
+    'Organisational Issues on Systems Integration',
+    'Data Mining',
+    'Big Data',
+    'Deep Learning',
+    'Knowledge Management',
+    'Modelling of Distributed Systems',
+    'Requirements Analysis and Management',
+    'Semantic Web Technologies and Applications',
+    'Models and Frameworks',
+    'Digital Transformation',
+    'EA Tools and Applications',
+    'Enterprise Content Management',
+    'Supply Chain Planning and Management'
+  ],
+  authors: [
+    'Hans Ehm',
+    'Javad Chamanara',
+    'Nguyen Tuan',
+    'Nour Ramzy',
+    'Sobah Petersen',
+    'Sören Auer',
+    'Tor Evjen'
+  ],
+  duration: 60,
+  distance: 9
+}
+Remaining Papers:
+[]
+{
+  pathLength: 29,
+  totalGenerated: 6793,
+  totalExpanded: 33,
+  timeDuration: 414047,
+  status: 'Solution found successfully.',
+  errors: []
+}
+
+{
+  evaluations: [
+    {
+      gSessionId: 17484,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 5,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17484,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 6,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17484,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 14,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17504,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 4,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17504,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 6,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 17504,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 10,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 17495,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 6,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17495,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 9,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 17495,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 12,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 17482,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 5,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17482,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 7,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17482,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 11,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17503,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 5,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17503,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 5,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17503,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 15,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17505,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 4,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17505,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 7,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17505,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 16,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17496,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 4,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 17496,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 6,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 17496,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 14,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18136,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 2,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18136,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 5,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18136,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 2,
+      topicTotal: 14,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18137,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 7,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18137,
+      group: [Object],
+      decision: 'VALID with 1 preference(s)',
+      areaTotal: 1,
+      topicTotal: 8,
+      foundRestrictions: [],
+      foundPreferences: [Array]
+    },
+    {
+      gSessionId: 18137,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 1,
+      topicTotal: 9,
+      foundRestrictions: [],
+      foundPreferences: []
+    },
+    {
+      gSessionId: 18137,
+      group: [Object],
+      decision: 'VALID',
+      areaTotal: 2,
+      topicTotal: 14,
+      foundRestrictions: [],
+      foundPreferences: []
+    }
+  ],
+  decision: 'VALID',
+  totalRestrictions: 0,
+  totalPreferences: 6
+}

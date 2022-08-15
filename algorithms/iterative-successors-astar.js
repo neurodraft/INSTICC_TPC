@@ -32,13 +32,15 @@ function reconstructPath(node) {
 }
 
 class Node {
-    constructor(state, parent, g, h) {
+    constructor(state, parent, g, h, d) {
         this.state = state;
         this.parent = parent;
         this.g = g;
         this.h = h;
         this.f = g + h;
         this.tested = false;
+        this.timesExpanded = 0;
+        this.d = d;
     }
 
     recalculateF() {
@@ -49,14 +51,17 @@ class Node {
 
 module.exports = aStarIS;
 
-function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration = 1,
+function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration = (d) => 16,
     timeLimit = undefined, stateAuxiliaryKeys = [],
     progressReport = { frequency: 1000, callback: (progress) => { console.dir(progress) } }) {
 
+    const reExpansionPenalty = 4;
+    
     var generatedNodes = 0;
     var expandedNodes = 0;
-    var updatedOpenNodes = 0;
-    var reoppenedClosedNodes = 0;
+    var reExpandedNodes = 0;
+    // var updatedOpenNodes = 0;
+    // var reoppenedClosedNodes = 0;
     var lastReport = 0;
 
     var startTime = Date.now();
@@ -74,34 +79,36 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
     var startNode = new Node(
         startState, undefined,
-        0, heuristic(startState));
+        0, heuristic(startState), 0);
 
     // Map between unique state hashes and existing nodes in open set
-    var openNodesMap = new Map();
+    //var openNodesMap = new Map();
     // MinHeap as Priority Queue for f sorting nodes in open set
     var openNodesHeap = new Heap((a, b) =>
-        a.f - b.f);
+        (a.f + (a.timesExpanded * reExpansionPenalty)) - (b.f + (b.timesExpanded * reExpansionPenalty)));
 
     // Map between unique state hashes and existing nodes in closed set
-    var closedNodesMap = new Map();
+    //var closedNodesMap = new Map();
 
     // Add starting node to open set
     openNodesHeap.push(startNode);
-    openNodesMap.set(hash(startNode.state, hashOptions), startNode);
+    //openNodesMap.set(hash(startNode.state, hashOptions), startNode);
 
     var result;
 
     var lastExpanded = null;
+    var bestSoFar = null
 
     while (!openNodesHeap.empty()) {
         // get lowest f node
         var node = openNodesHeap.pop();
 
         lastExpanded = node;
-
+        if (bestSoFar === null || node.f < bestSoFar.f)
+            bestSoFar = node;
 
         // create unique hash of state
-        var stateHash = hash(node.state, hashOptions);
+        //var stateHash = hash(node.state, hashOptions);
 
         var timeDuration = Date.now() - startTime;
 
@@ -112,9 +119,11 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
                 elapsedTime: timeDuration,
                 nodesGeneratedSoFar: generatedNodes,
                 nodesFullyExpandedSoFar: expandedNodes,
-                updatedOpenNodes: updatedOpenNodes,
-                reoppenedClosedNodes: reoppenedClosedNodes,
-                lastExpanded: lastExpanded
+                // updatedOpenNodes: updatedOpenNodes,
+                // reoppenedClosedNodes: reoppenedClosedNodes,
+                reExpandedNodes: reExpandedNodes,
+                lastExpanded: lastExpanded,
+                bestSoFar: bestSoFar
             });
             lastReport = nextReport;
         }
@@ -140,7 +149,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
         var fullyExpanded = false;
 
-        for (var i = 0; i < maxSuccessorsPerIteration; i++) {
+        for (var i = 0; i < maxSuccessorsPerIteration(node.d); i++) {
             // generate node successor states
             var successor = nextSuccessor(node.state);
 
@@ -152,63 +161,81 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
             generatedNodes += 1;
 
-            var successorHash = hash(successor, hashOptions);
+            //var successorHash = hash(successor, hashOptions);
 
             // get distance between parent state and successor state to calculate new g value
             var distance = distanceBetween(node.state, successor);
             var g = node.g + distance;
 
-            // try and find existing node in open with same state
-            var previouslyOpen = openNodesMap.get(successorHash);
-            // if it exists and has lower g value, replace open's parent with sucessor's parent and recalculate f
-            if (previouslyOpen !== undefined &&
-                g < previouslyOpen.g) {
-                previouslyOpen.g = g;
-                previouslyOpen.recalculateF();
-                previouslyOpen.parent = node;
+            // // try and find existing node in open with same state
+            // var previouslyOpen = openNodesMap.get(successorHash);
+            // // if it exists and has lower g value, replace open's parent with sucessor's parent and recalculate f
+            // if (previouslyOpen !== undefined &&
+            //     g < previouslyOpen.g) {
+            //     previouslyOpen.g = g;
+            //     previouslyOpen.recalculateF();
+            //     previouslyOpen.parent = node;
 
-                openNodesHeap.updateItem(previouslyOpen);
+            //     openNodesHeap.updateItem(previouslyOpen);
 
-                updatedOpenNodes += 1;
-                continue;
-            }
+            //     updatedOpenNodes += 1;
+            //     continue;
+            // }
 
-            // try and find existing node in closed with same state
-            var previouslyClosed = closedNodesMap.get(successorHash);
-            // if it exists and has lower g value, remove from close, replace parent with sucessor's parent, recalculate f
-            // and insert in open set
-            if (previouslyClosed !== undefined &&
-                g < previouslyClosed.g) {
-                closedNodesMap.delete(successorHash);
+            // // try and find existing node in closed with same state
+            // var previouslyClosed = closedNodesMap.get(successorHash);
+            // // if it exists and has lower g value, remove from close, replace parent with sucessor's parent, recalculate f
+            // // and insert in open set
+            // if (previouslyClosed !== undefined &&
+            //     g < previouslyClosed.g) {
+            //     closedNodesMap.delete(successorHash);
 
-                previouslyClosed.g = g;
-                previouslyClosed.recalculateF();
-                previouslyClosed.parent = node;
+            //     previouslyClosed.g = g;
+            //     previouslyClosed.recalculateF();
+            //     previouslyClosed.parent = node;
 
-                openNodesHeap.push(previouslyClosed);
-                openNodesMap.set(successorHash, previouslyClosed)
+            //     openNodesHeap.push(previouslyClosed);
+            //     openNodesMap.set(successorHash, previouslyClosed)
 
-                reoppenedClosedNodes += 1;
-                continue;
-            }
+            //     reoppenedClosedNodes += 1;
+            //     continue;
+            // }
 
-            // if no nodes with same state found either in open or closed sets,
-            // calculate heuristic and add successor node to open set
-            if (previouslyOpen === undefined && previouslyClosed === undefined) {
-                var successorNode = new Node(
-                    successor, node,
-                    g, heuristic(successor));
+            // // if no nodes with same state found either in open or closed sets,
+            // // calculate heuristic and add successor node to open set
+            // if (previouslyOpen === undefined && previouslyClosed === undefined) {
+            //     var successorNode = new Node(
+            //         successor, node,
+            //         g, heuristic(successor));
 
-                openNodesHeap.push(successorNode);
-                openNodesMap.set(successorHash, successorNode);
-            }
+            //     openNodesHeap.push(successorNode);
+            //     openNodesMap.set(successorHash, successorNode);
+            // }
+
+            var successorNode = new Node(
+                successor, node,
+                g, heuristic(successor), node.d + 1);
+            
+           
+            // if (isGoalState(successorNode.state)) {
+            //     result = new AStarResult(reconstructPath(successorNode), generatedNodes, expandedNodes, timeDuration, ResultStatus.Successfull);
+            //     return result;
+            // }
+
+
+            openNodesHeap.push(successorNode);
+        }
+
+        node.timesExpanded += 1;
+        if (node.timesExpanded > 1) {
+            reExpandedNodes += 1;
         }
 
         if(fullyExpanded){
             // remove node from open map
-            openNodesMap.delete(stateHash);
+            //openNodesMap.delete(stateHash);
             // add current node to closed set
-            closedNodesMap.set(stateHash, node);
+            //closedNodesMap.set(stateHash, node);
             expandedNodes += 1;
         } else {
             //reinsert expanding node in open heap
@@ -245,9 +272,8 @@ function validateArgs(args) {
     if (!(args[4] instanceof Function)) {
         errors.push("heuristic must be provided and must be a Function.")
     }
-    if (args[5] !== undefined &&
-        !(Number.isInteger(args[5]))) {
-        errors.push("maxSuccessorsPerIteration is optional but must be an integer if provided.")
+    if (!(args[5] instanceof Function)) {
+        errors.push("maxSuccessorsPerIteration is optional but must be a function if provided.")
     }
     if (args[6] !== undefined &&
         !(Number.isInteger(args[6]))) {

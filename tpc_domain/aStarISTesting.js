@@ -6,16 +6,29 @@ const {
     preferences
 } = require('./tpcDomain');
 
-var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, 32, undefined, undefined, progressReport);
+function maxSuccessorsPerIteration(d) {
+    return Math.max(128 / (d + 1), 8);
+}
+
+var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration, undefined, undefined, progressReport);
 
 let {path, ...rest} = result;
 
 var finalState = path.pop();
 
+console.log("!!! FINAL STATE:");
+
 printState(finalState);
 
 console.dir(rest);
 
-const evaluateMatches = require("./evaluateMatches.js");
+const data = JSON.stringify(finalState.gSessions);
 
-console.dir(evaluateMatches(finalState.matches, restrictions, preferences));
+const fs = require('fs');
+
+fs.writeFile(`result_${Date.now().valueOf()}.json`, data, (err) => {
+    if (err) {
+        throw err;
+    }
+    console.log("JSON data is saved.");
+});
