@@ -1,5 +1,4 @@
 const Heap = require('heap');
-const hash = require('object-hash');
 
 const ResultStatus = {
     Successfull: "Solution found successfully.",
@@ -51,15 +50,14 @@ class Node {
 
 module.exports = aStarIS;
 
-function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration = (d) => 16,
-    timeLimit = undefined, stateAuxiliaryKeys = [],
+function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration = (d) => 16, reExpansionPenalty = 4,
+    timeLimit = undefined, stateHash = undefined,
     progressReport = { frequency: 1000, callback: (progress) => { console.dir(progress) } }) {
-
-    const reExpansionPenalty = 4;
     
     var generatedNodes = 0;
     var expandedNodes = 0;
     var reExpandedNodes = 0;
+    var discartedBranches = 0;
     // var updatedOpenNodes = 0;
     // var reoppenedClosedNodes = 0;
     var lastReport = 0;
@@ -71,11 +69,11 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
         return new AStarResult(null, generatedNodes, expandedNodes, Date.now() - startTime, ResultStatus.InvalidArguments, errors);
     }
 
-    var hashOptions = {
-        excludeKeys: function (key) {
-            return stateAuxiliaryKeys.includes(key);
-        }
-    }
+    // var hashOptions = {
+    //     excludeKeys: function (key) {
+    //         return stateAuxiliaryKeys.includes(key);
+    //     }
+    // }
 
     var startNode = new Node(
         startState, undefined,
@@ -89,6 +87,11 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
     // Map between unique state hashes and existing nodes in closed set
     //var closedNodesMap = new Map();
+
+    //List of unique state hashes generated, discard any node with duplicated hash
+    var generatedStatesHashSet = new Set();
+    if (stateHash != undefined)
+        generatedStatesHashSet.add(stateHash(startState));
 
     // Add starting node to open set
     openNodesHeap.push(startNode);
@@ -122,6 +125,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
                 // updatedOpenNodes: updatedOpenNodes,
                 // reoppenedClosedNodes: reoppenedClosedNodes,
                 reExpandedNodes: reExpandedNodes,
+                discartedBranches: discartedBranches,
                 lastExpanded: lastExpanded,
                 bestSoFar: bestSoFar
             });
@@ -160,6 +164,17 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
             }
 
             generatedNodes += 1;
+
+            if (stateHash != undefined) {
+                var hash = stateHash(successor);
+                if (generatedStatesHashSet.has(hash)) {
+                    discartedBranches += 1;
+                    break;
+                }
+
+                generatedStatesHashSet.add(hash);
+            }
+                
 
             //var successorHash = hash(successor, hashOptions);
 
@@ -222,7 +237,6 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
             //     return result;
             // }
 
-
             openNodesHeap.push(successorNode);
         }
 
@@ -277,12 +291,14 @@ function validateArgs(args) {
     }
     if (args[6] !== undefined &&
         !(Number.isInteger(args[6]))) {
-        errors.push("timeLimit is optional but must be an integer if provided.")
+        errors.push("reExpansionPenalty is optional but must be an integer if provided.")
     }
     if (args[7] !== undefined &&
-        !(args[7] instanceof Array) &&
-        args[7].every(k => k instanceof String)) {
-        errors.push("stateAuxiliaryKeys is optional but must be an array of strings if provided.")
+        !(Number.isInteger(args[6]))) {
+        errors.push("timeLimit is optional but must be an integer if provided.")
+    }
+    if (!(args[8] instanceof Function)) {
+        errors.push("stateHash is optional but must be a function if provided.")
     }
 
     return errors;

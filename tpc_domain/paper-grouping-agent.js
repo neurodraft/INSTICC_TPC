@@ -1,5 +1,8 @@
-const hash = require('object-hash');
 const Heap = require('heap');
+
+function hash(paperGroup) {
+    return paperGroup.map(p => p.id).toString();
+}
 
 function manhattanDistance(vector1, vector2) {
     var value = 0;
@@ -28,6 +31,8 @@ function orVectors(vector1, vector2) {
     return out;
 }
 
+// Summation of XORing vector1[i] with vector2[i] for every i
+// Same result as manhattan distance for vectors with binary values, faster
 function xorSumVectors(vector1, vector2) {
     var sum = 0;
     for (var i = 0; i < vector1.length; i++) {
@@ -85,7 +90,7 @@ function printNode(node) {
     console.log(`Group: [${paperIds.toString()}], Distance: ${node.distance}`);
 }
 
-function iterativePaperGrouper(papers, gSessions) {
+function iterativePaperGrouper(papers, gSessions, penaltiesConfig) {
     var { distanceMatrix, paperIndexMap } = calculateDistanceMatrix(papers);
 
     var startingNodes = [];
@@ -94,68 +99,35 @@ function iterativePaperGrouper(papers, gSessions) {
 
     var consumerDataMap = new Map();
 
-    var cLimit = 0;
+    // EMPTY STARTING NODE
+    var group = [];
+    var groupHash = hash(group);
+    var vector = new Array(papers[0].vector.length).fill(0);
+    var commonTopicsVector = new Array(papers[0].vector.length).fill(0);
+    var vectorArea = new Array(papers[0].vectorArea.length).fill(0);
+    var restrictionsVector = new Array(papers[0].restrictionsVector.length).fill(0);
+    var preferencesVector = new Array(papers[0].preferencesVector.length).fill(0);
+    var authorsVector = new Array(papers[0].authorsVector.length).fill(0);
+    var duration = 0;
+    var maxDistance = 0;
+    var distance = 0;
 
-    for (var row = 0; row < papers.length; row++) {
-        for (var column = 0; column < cLimit; column++) {
-            if (row == column) {
-                continue;
-            }
-
-            var group = [papers[row], papers[column]];
-            group.sort((a, b) => a.id - b.id);
-            var groupHash = hash(group);
-
-            var vector = orVectors(group[0].vector, group[1].vector);
-
-            var commonTopicsVector = andVectors(group[0].vector, group[1].vector);
-
-            var vectorArea = orVectors(group[0].vectorArea, group[1].vectorArea);
-
-            var restrictionsVector = orVectors(group[0].restrictionsVector, group[1].restrictionsVector);
-
-            var preferencesVector = orVectors(group[0].preferencesVector, group[1].preferencesVector);
-
-            var authorsVector = orVectors(group[0].authorsVector, group[1].authorsVector);
-
-            var duration = group.map(p => p.duration).reduce((accumulator, curr) => accumulator + curr);
-
-            var maxDistance = distanceMatrix[row][column];
-            var distance = maxDistance;
-
-            var nAreasBeyondFirst = vectorArea.reduce((partialSum, a) => partialSum + a, 0) - 1;
-            if (!commonTopicsVector.some(v => v === 1)) {
-                distance += 1;
-                if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst * 2;
-            } else {
-                var nCommonTopicsBeyondFirst = commonTopicsVector.reduce((partialSum, a) => partialSum + a, 0) - 1;
-                distance += nCommonTopicsBeyondFirst;
-                if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst;
-            }
-
-            var node = {
-                children: undefined,
-                group: group,
-                maxDistance: maxDistance,
-                distance: distance,
-                duration: duration,
-                vector: vector,
-                commonTopicsVector: commonTopicsVector,
-                vectorArea: vectorArea,
-                restrictionsVector: restrictionsVector,
-                preferencesVector: preferencesVector,
-                authorsVector: authorsVector
-            }
-
-            generateNodesMap.set(groupHash, node);
-            startingNodes.push(node);
-
-            console.log("Inserted new node:")
-            printNode(node);
-            console.log();
-        }
-        cLimit += 1;
+    var node = {
+        children: undefined,
+        group: group,
+        maxDistance: maxDistance,
+        distance: distance,
+        duration: duration,
+        vector: vector,
+        commonTopicsVector: commonTopicsVector,
+        vectorArea: vectorArea,
+        restrictionsVector: restrictionsVector,
+        preferencesVector: preferencesVector,
+        authorsVector: authorsVector
     }
+
+    generateNodesMap.set(groupHash, node);
+    startingNodes.push(node);
 
     function saveNode(node) {
         var sessionDurations = groupToSessionDurations(node.duration);
@@ -235,13 +207,13 @@ function iterativePaperGrouper(papers, gSessions) {
                 var maxDistance = parent.maxDistance;
 
                 for (var j = 0; j < parent.group.length; j++) {
-                    distance += 1;
                     var d = distanceMatrix[paperIndexMap.get(paper)][paperIndexMap.get(parent.group[j])];
                     if (d > maxDistance) maxDistance = d;
                 }
 
                 var vector = orVectors(parent.vector, paper.vector);
-                var commonTopicsVector = andVectors(parent.commonTopicsVector, paper.vector);
+                    
+                var commonTopicsVector = parent.group.length ? andVectors(parent.commonTopicsVector, paper.vector) : [...paper.vector];
                 var vectorArea = orVectors(parent.vectorArea, paper.vectorArea);
                 var preferencesVector = orVectors(parent.preferencesVector, paper.preferencesVector);
                 var restrictionsVector = orVectors(parent.restrictionsVector, paper.restrictionsVector);
@@ -252,12 +224,12 @@ function iterativePaperGrouper(papers, gSessions) {
 
                 var nAreasBeyondFirst = vectorArea.reduce((partialSum, a) => partialSum + a, 0) - 1;
                 if (!commonTopicsVector.some(v => v === 1)) {
-                    distance += 1;
-                    if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst * 2;
+                    distance += penaltiesConfig.noCommonTopicsPenalty;
+                    if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst * penaltiesConfig.areasBeyondFirstPenaltyMultiplier.withoutCommonTopics;
                 } else {
                     var nCommonTopicsBeyondFirst = commonTopicsVector.reduce((partialSum, a) => partialSum + a, 0) - 1;
-                    distance += nCommonTopicsBeyondFirst;
-                    if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst;
+                    distance += nCommonTopicsBeyondFirst * penaltiesConfig.commonTopicsBeyondFirstPenaltyMultiplier;
+                    if (nAreasBeyondFirst > 0) distance += nAreasBeyondFirst * penaltiesConfig.areasBeyondFirstPenaltyMultiplier.withCommonTopics;
                 }
 
                 var node = {

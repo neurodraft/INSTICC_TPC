@@ -58,11 +58,11 @@ function evaluateMatches(gSessions, restrictions, preferences) {
                     penalties.push({ penalty: areaTotal - 1, description: `${areaTotal} areas in group.` })
             
             var durationDiff = gSession.duration - match.duration;
-            var durationDiffNormalized = durationDiff / gSession.duration;
+            var durationDiffNormalized = Math.abs(durationDiff) / gSession.duration;
             if (durationDiff > 0) {
                 penalties.push({ penalty: durationDiffNormalized * 10, description: `Group duration short ${durationDiff} minutes.` })
             } else if (durationDiff < 0){
-                penalties.push({ penalty: -durationDiffNormalized * 0.1, description: `Group duration exceeds session duration by ${-durationDiff} minutes.` })
+                penalties.push({ penalty: (1 / durationDiffNormalized) * 0.1, description: `Group duration exceeds session duration by ${-durationDiff} minutes.` })
             }
             
             var evaluation = {
