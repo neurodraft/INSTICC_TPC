@@ -8,7 +8,7 @@ let rawdata = fs.readFileSync('iceis2022.json');
 let tpcConfig = {
     baseTransitionCost: 1,
     sessionPenalties: {
-        noCommonTopicsPenalty: 2,
+        noCommonTopicsPenalty: 1,
         commonTopicsBeyondFirstPenaltyMultiplier: 1,
         areasBeyondFirstPenaltyMultiplier: {
             withoutCommonTopics: 4,
@@ -32,10 +32,10 @@ let tpcConfig = {
     },
     iterativeAStar: {
         // Additional cost for each reexpansion of a node
-        nodeReExpansionAdditionalCost: 10,
+        nodeReExpansionAdditionalCost: 4,
 
         // JavaScript expression for determining how many sucessors to expand in function of d (depth)
-        maxSuccessorsPerIterationExpression: "Math.max(1024 / (d + 1), 8)"
+        maxSuccessorsPerIterationExpression: "Math.max(1024 / Math.pow(2, d), 4)"
     }
     
 };
