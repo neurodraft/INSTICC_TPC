@@ -19,7 +19,7 @@ let tpcConfig = {
         // Multiplier for undertime normalized relative to Session Duration
         // eg.: 15 / 60 = 0.25 * 10 = 2.5 penalty score added for being 15 minutes under in a 60 minutes session
         // eg.: 15 / 105 = ~0.143 * 10 = ~1.43 penalty score added for being 15 minutes under in a 105 minutes session
-        undertimeNormalizedPenaltyMultiplier: 20,
+        undertimeNormalizedPenaltyMultiplier: 40,
 
         // Multiplier for product between overtime and Session Duration (gets larger as any of the two increases).
         // eg.: 5 * 60 = 300 * 0.025 = 7.5 penalty score added for going 5 minutes over in a 60 minutes session
@@ -35,7 +35,7 @@ let tpcConfig = {
         nodeReExpansionAdditionalCost: 4,
 
         // JavaScript expression for determining how many sucessors to expand in function of d (depth)
-        maxSuccessorsPerIterationExpression: "Math.max(1024 / Math.pow(2, d), 4)"
+        maxSuccessorsPerIterationExpression: "Math.max(2048 / Math.pow(2, d), 4)"
     }
     
 };
