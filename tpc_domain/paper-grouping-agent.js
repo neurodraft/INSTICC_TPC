@@ -90,7 +90,7 @@ function printNode(node) {
     console.log(`Group: [${paperIds.toString()}], Distance: ${node.distance}`);
 }
 
-function iterativePaperGrouper(papers, gSessions, penaltiesConfig) {
+function iterativePaperGrouper(papers, gSessions, penaltiesConfig, validDurations) {
     var { distanceMatrix, paperIndexMap } = calculateDistanceMatrix(papers);
 
     var startingNodes = [];
@@ -129,6 +129,10 @@ function iterativePaperGrouper(papers, gSessions, penaltiesConfig) {
     generateNodesMap.set(groupHash, node);
     startingNodes.push(node);
 
+    function clearConsumerDataMap() {
+        consumerDataMap.clear();
+    }
+
     function saveNode(node) {
         var sessionDurations = groupToSessionDurations(node.duration);
 
@@ -157,21 +161,12 @@ function iterativePaperGrouper(papers, gSessions, penaltiesConfig) {
 
     function groupToSessionDurations(groupDuration) {
         var sessionDurations = [];
-        if ([40, 45, 50, 60, 65].includes(groupDuration)) {
-            sessionDurations.push(60);
-        }
-        if ([60, 65, 70, 75, 80].includes(groupDuration)) {
-            sessionDurations.push(75);
-        }
-        if ([80, 85, 90, 75, 95].includes(groupDuration)) {
-            sessionDurations.push(90);
-        }
-        if ([100, 105, 90, 95, 110].includes(groupDuration)) {
-            sessionDurations.push(105);
-        }
-        if ([120, 105, 110, 115, 125].includes(groupDuration)) {
-            sessionDurations.push(120);
-        }
+
+        validDurations.forEach(vd => {
+            if (vd.validDurations.includes(groupDuration))
+                sessionDurations.push(vd.sessionDuration);
+        });
+
         return sessionDurations;
     }
 
@@ -314,7 +309,7 @@ function iterativePaperGrouper(papers, gSessions, penaltiesConfig) {
         return search(consumerData, sessionDuration, gSessionId, papersAvailable, simultaneousAuthorsVector);
     }
 
-    return { nextGroup: nextGroup };
+    return { nextGroup: nextGroup, clearConsumerDataMap: clearConsumerDataMap };
 }
 
 module.exports = iterativePaperGrouper;

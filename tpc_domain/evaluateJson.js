@@ -4,7 +4,7 @@ const { restrictions, preferences} = JSON.parse(rawdata);
 
 const evaluateMatches = require("./evaluateMatches.js");
 
-let gSessions = JSON.parse(fs.readFileSync("result_1659405137072.json"));
+let gSessions = JSON.parse(fs.readFileSync("result_1661033444110.json"));
 
 var evaluation = evaluateMatches(gSessions, restrictions, preferences);
 

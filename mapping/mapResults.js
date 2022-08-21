@@ -4,7 +4,7 @@ const fs = require("fs");
 
 //const final = JSON.parse(fs.readFileSync(fileName));
 
-const result = JSON.parse(fs.readFileSync("../results/result_1659407417589.json"));
+const result = JSON.parse(fs.readFileSync("../tpc_domain/results/1661085142253/result.json"));
 
 let rawdata = fs.readFileSync('../data/input/iceis2022.json');
 const { sessions, papers, areas, topics } = JSON.parse(rawdata);
@@ -339,7 +339,7 @@ result.forEach(gSession => {
 
 const data = JSON.stringify(simplified);
 
-fs.writeFile(`../data/generated_output/simplified.json`, data, (err) => {
+fs.writeFile(`1661085142253.json`, data, (err) => {
     if (err) {
         throw err;
     }

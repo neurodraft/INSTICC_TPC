@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "fracturedjsonjs": "^2.2.1",
     "heap": "^0.2.7",
     "object-hash": "^3.0.0"
   }

@@ -8,12 +8,14 @@ const ResultStatus = {
 }
 
 class AStarResult {
-    constructor(path, totalGenerated, totalExpanded, timeDuration, status, errors = []) {
+    constructor(path, totalGenerated, totalExpanded, reExpandedNodes, discartedBranches,timeDuration, status, errors = []) {
         this.path = path;
         if (path)
             this.pathLength = path.length;
         this.totalGenerated = totalGenerated;
         this.totalExpanded = totalExpanded;
+        this.reExpandedNodes = reExpandedNodes;
+        this.discartedBranches = discartedBranches;
         this.timeDuration = timeDuration;
         this.status = status;
         this.errors = errors;
@@ -66,7 +68,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
 
     var errors = validateArgs(arguments);
     if (errors.length > 0) {
-        return new AStarResult(null, generatedNodes, expandedNodes, Date.now() - startTime, ResultStatus.InvalidArguments, errors);
+        return new AStarResult(null, generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, Date.now() - startTime, ResultStatus.InvalidArguments, errors);
     }
 
     // var hashOptions = {
@@ -136,7 +138,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
         // otherwise flag as tested to ignore in later expansions
         if (!node.tested) {
             if (isGoalState(node.state)) {
-                result = new AStarResult(reconstructPath(node), generatedNodes, expandedNodes, timeDuration, ResultStatus.Successfull);
+                result = new AStarResult(reconstructPath(node), generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.Successfull);
                 break;
             }
 
@@ -146,7 +148,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
         // if time limit is defined and duration exceeds limit, quit.
         if (timeLimit !== undefined) {
             if (timeDuration > timeLimit) {
-                result = new AStarResult(null, generatedNodes, expandedNodes, timeDuration, ResultStatus.TimeOut);
+                result = new AStarResult(null, generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.TimeOut);
                 break;
             }
         }
@@ -261,7 +263,7 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
     // No result found and no timeout reached, no solution could be found
     if (!result) {
         var timeDuration = Date.now() - startTime;
-        result = new AStarResult(null, generatedNodes, expandedNodes, timeDuration, ResultStatus.NoSolution);
+        result = new AStarResult(null, generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.NoSolution);
     }
 
     return result;

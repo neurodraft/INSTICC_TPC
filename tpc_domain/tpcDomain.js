@@ -42,7 +42,14 @@ module.exports = function (rawdata, tpcConfig) {
     addRestrictionsVectors(papers, restrictions, gSessionsIds);
     addPreferencesVectors(papers, preferences, gSessionsIds);
 
-    const iterativePaperGrouper = iterativePaperGrouping(papers, gSessionsIds, tpcConfig.sessionPenalties);
+    const iterativePaperGrouper = iterativePaperGrouping(papers, gSessionsIds, tpcConfig.sessionPenalties, tpcConfig.validDurations);
+
+    const stateExpansionDataMap = new Map();
+
+    function clearStateExpansionDataMap() {
+        stateExpansionDataMap.clear();
+        iterativePaperGrouper.clearConsumerDataMap();
+    }
 
     var remainingPapers = [...papers].sort();
     //var remainingSessions = [...sessions].sort();
@@ -162,8 +169,8 @@ module.exports = function (rawdata, tpcConfig) {
 
     function isGoalState(state) {
         if (state.remainingPapers.length === 0) {
-            console.log("REACHED END:");
-            printState(state);
+            // console.log("REACHED END:");
+            // printState(state);
             return true;
         };
         return false;
@@ -199,7 +206,7 @@ module.exports = function (rawdata, tpcConfig) {
         var durationDiff = lastChangedSession.duration - lastAddedGroup.duration;
         if (durationDiff > 0) {
             distance += (durationDiff / lastChangedSession.duration) * penalties.undertimeNormalizedPenaltyMultiplier;
-        } else if(durationDiff < 0) {
+        } else if (durationDiff < 0) {
             distance += (-durationDiff * lastChangedSession.duration) * penalties.overtimeSessionDurationProductPenaltyMultiplier;
         }
 
@@ -263,7 +270,8 @@ module.exports = function (rawdata, tpcConfig) {
         // Preferências que faltam satisfazer
         var preferencesHeuristic = getPreferencesHeuristic(state);
 
-        heuristic += remainingPapersAmount + preferencesHeuristic;
+        heuristic += (remainingPapersAmount * tpcConfig.heuristicMultipliers.remainingPapersMultiplier)
+            + (preferencesHeuristic * tpcConfig.heuristicMultipliers.unmetPreferencesMultiplier);
 
         return heuristic;
     }
@@ -375,83 +383,78 @@ module.exports = function (rawdata, tpcConfig) {
         return gSessions;
     }
 
-    function createNextSuccessor() {
-        const stateExpansionStateMap = new Map();
 
-        function nextSuccessor(state) {
-            var expansionState;
+    function nextSuccessor(state) {
+        var expansionState;
 
-            if (stateExpansionStateMap.has(state)) {
-                expansionState = stateExpansionStateMap.get(state);
-            } else {
-                expansionState = {
-                    validSessions: gSessionsWithLeastGroups(state.gSessions).sort((a, b) => 0.5 - Math.random()),
-                    index: 0
-                };
-                stateExpansionStateMap.set(state, expansionState);
-            }
-
-            var gSession = expansionState.validSessions[expansionState.index];
-
-            // var simultaneousAuthorsVector = gSessionSimultaneousAuthorsVector(state.matches, gSession.id);
-            var simultaneousAuthorsVector = gSession.authorsVector;
-
-            var consumerKey = ([state.stateId, gSession.id]).toString();
-
-            var paperGroupNode = iterativePaperGrouper.nextGroup(consumerKey,
-                gSession.duration, gSession.id, state.remainingPapers, simultaneousAuthorsVector);
-
-            if (paperGroupNode === null) {
-                expansionState.validSessions.splice(expansionState.index, 1);
-                if (expansionState.validSessions.length == 0) {
-                    return null;
-                }
-            }
-
-            expansionState.index += 1;
-            expansionState.index %= expansionState.validSessions.length;
-
-            if (paperGroupNode === null) {
-                return nextSuccessor(state);
-            } else {
-                var newGSessions = state.gSessions.filter(s => s.id !== gSession.id);
-
-                var newGroup = {
-                    paperGroup: paperGroupNode.group,
-                    distance: paperGroupNode.distance,
-                    vectorArea: paperGroupNode.vectorArea,
-                    topicVector: paperGroupNode.vector,
-                    commonTopicsVector: paperGroupNode.commonTopicsVector,
-                    restrictionsVector: paperGroupNode.restrictionsVector,
-                    preferencesVector: paperGroupNode.preferencesVector,
-                    authorsVector: paperGroupNode.authorsVector,
-                    duration: paperGroupNode.duration
-                };
-
-                var newGSession = {
-                    id: gSession.id,
-                    duration: gSession.duration,
-                    groups: [...gSession.groups, newGroup],
-                    authorsVector: orVectors(gSession.authorsVector, paperGroupNode.authorsVector)
-                }
-
-                newGSessions = [...newGSessions, newGSession];
-
-                var newState = {
-                    remainingPapers: state.remainingPapers.filter(p => !paperGroupNode.group.includes(p)),
-                    gSessions: newGSessions,
-                    stateId: ++lastStateId,
-                    // distanceTotal: state.distanceTotal + paperGroupNode.distance,
-                }
-
-                return newState;
-            }
-
+        if (stateExpansionDataMap.has(state)) {
+            expansionState = stateExpansionDataMap.get(state);
+        } else {
+            expansionState = {
+                validSessions: gSessionsWithLeastGroups(state.gSessions).sort((a, b) => 0.5 - Math.random()),
+                index: 0
+            };
+            stateExpansionDataMap.set(state, expansionState);
         }
 
-        return nextSuccessor;
+        var gSession = expansionState.validSessions[expansionState.index];
+
+        // var simultaneousAuthorsVector = gSessionSimultaneousAuthorsVector(state.matches, gSession.id);
+        var simultaneousAuthorsVector = gSession.authorsVector;
+
+        var consumerKey = ([state.stateId, gSession.id]).toString();
+
+        var paperGroupNode = iterativePaperGrouper.nextGroup(consumerKey,
+            gSession.duration, gSession.id, state.remainingPapers, simultaneousAuthorsVector);
+
+        if (paperGroupNode === null) {
+            expansionState.validSessions.splice(expansionState.index, 1);
+            if (expansionState.validSessions.length == 0) {
+                return null;
+            }
+        }
+
+        expansionState.index += 1;
+        expansionState.index %= expansionState.validSessions.length;
+
+        if (paperGroupNode === null) {
+            return nextSuccessor(state);
+        } else {
+            var newGSessions = state.gSessions.filter(s => s.id !== gSession.id);
+
+            var newGroup = {
+                paperGroup: paperGroupNode.group,
+                distance: paperGroupNode.distance,
+                vectorArea: paperGroupNode.vectorArea,
+                topicVector: paperGroupNode.vector,
+                commonTopicsVector: paperGroupNode.commonTopicsVector,
+                restrictionsVector: paperGroupNode.restrictionsVector,
+                preferencesVector: paperGroupNode.preferencesVector,
+                authorsVector: paperGroupNode.authorsVector,
+                duration: paperGroupNode.duration
+            };
+
+            var newGSession = {
+                id: gSession.id,
+                duration: gSession.duration,
+                groups: [...gSession.groups, newGroup],
+                authorsVector: orVectors(gSession.authorsVector, paperGroupNode.authorsVector)
+            }
+
+            newGSessions = [...newGSessions, newGSession];
+
+            var newState = {
+                remainingPapers: state.remainingPapers.filter(p => !paperGroupNode.group.includes(p)),
+                gSessions: newGSessions,
+                stateId: ++lastStateId,
+                // distanceTotal: state.distanceTotal + paperGroupNode.distance,
+            }
+
+            return newState;
+        }
 
     }
+
 
     var progressReport = {
         frequency: 10000, callback: (progress) => {
@@ -487,13 +490,14 @@ module.exports = function (rawdata, tpcConfig) {
     return {
         startState: startState,
         isGoalState: isGoalState,
-        nextSuccessor: createNextSuccessor(),
+        nextSuccessor: nextSuccessor,
         distanceBetween: distanceBetween,
         heuristic: heuristic,
         progressReport: progressReport,
         printState: printState,
         restrictions: restrictions,
         preferences: preferences,
-        stateHash: stateHash
+        stateHash: stateHash,
+        clearStateExpansionDataMap: clearStateExpansionDataMap
     };
 }
