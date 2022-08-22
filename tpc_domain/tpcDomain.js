@@ -3,7 +3,6 @@ const fs = require('fs');
 const { match } = require('assert');
 
 module.exports = function (rawdata, tpcConfig) {
-    //let rawdata = fs.readFileSync('iceis2022.json');
     const { sessions, papers, restrictions, preferences, topics, areas } = JSON.parse(rawdata);
 
     var authors = [];

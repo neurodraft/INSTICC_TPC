@@ -20,12 +20,12 @@ let tpcConfig = {
         // Multiplier for areas total beyond first area in group...
         areasBeyondFirstPenaltyMultiplier: {
             // ...when there aren't any topics in common
-            withoutCommonTopics: 8,
+            withoutCommonTopics: 16,
             // ...when there is at least a topic in common
             withCommonTopics: 2,
         },
         // Multiplier for total of duplicate simultaneous areas in different rooms
-        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 8,
+        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 16,
 
         // Multiplier for undertime normalized relative to Session Duration
         // eg.: 15 / 60 = 0.25 * 10 = 2.5 penalty score added for being 15 minutes under in a 60 minutes session
@@ -70,18 +70,19 @@ let tpcConfig = {
     },
     iterativeAStar: {
         // Additional cost for each reexpansion of a node
-        nodeReExpansionAdditionalCost: 40,
+        nodeReExpansionAdditionalCost: 4,
         // JavaScript expression for determining how many sucessors to expand at once in function of d (depth)
         maxSuccessorsPerIterationExpression:
             //"Math.max(16 / Math.pow(2, d), 4)"
             //"Math.max(32 / Math.pow(2, d), 4)"
             //"Math.max(64 / Math.pow(2, d), 4)"
             //"Math.max(128 / Math.pow(2, d), 4)"
-            "Math.max(256 / Math.pow(2, d), 4)"
+            //"Math.max(256 / Math.pow(2, d), 4)"
             //"Math.max(512 / Math.pow(2, d), 4)"
-            //"Math.max(1024 / Math.pow(2, d), 4)"
-            //"4"
+            "Math.max(1024 / Math.pow(2, d), 4)"
+            //"2048"
             //"Math.max(256 / (d + 1), 8)"
+            //"Math.max(64 / (d + 1), 4)"
     }
     
 };
@@ -97,19 +98,9 @@ function maxSuccessorsPerIteration(d) {
 }
 var reExpansionPenalty = tpcConfig.iterativeAStar.nodeReExpansionAdditionalCost;
 
-function customStringifyReplacer(k, v) {
-    let isArray = Array.isArray(v);
-
-    if (isArray && v.length > 0 && Number.isInteger(v[0])) {
-            return JSON.stringify(v);
-    }
-    
-   return v;
-}
-
 const formatter = new Formatter();
 
-for (var i = 0; i < 4; i++){
+for (var i = 0; i < 1; i++){
 
     var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration, reExpansionPenalty, undefined, stateHash, progressReport);
 
