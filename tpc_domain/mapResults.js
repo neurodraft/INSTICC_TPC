@@ -102,7 +102,7 @@ function mapResults(result, rawdata) {
     let conEnd = undefined
 
     sessions.forEach(s => {
-        s.start = parseDate(s.start);
+        s.start = new Date(s.start);
         s.end = addMinutes(s.duration, new Date(s.start));
 
         if (conStart == undefined) {

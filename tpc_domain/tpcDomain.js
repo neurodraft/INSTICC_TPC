@@ -195,12 +195,17 @@ module.exports = function (rawdata, tpcConfig) {
         }
 
         var otherSessionGroupsAreaVector = new Array(lastAddedGroup.vectorArea.length).fill(0);
+        var otherSessionCommonTopicsVector = new Array(lastAddedGroup.commonTopicsVector.length).fill(0);
+
         lastChangedSession.groups.forEach(g => {
-            if (g !== lastAddedGroup)
+            if (g !== lastAddedGroup) {
                 otherSessionGroupsAreaVector = orVectors(otherSessionGroupsAreaVector, g.vectorArea)
+                otherSessionCommonTopicsVector = orVectors(otherSessionCommonTopicsVector, g.commonTopicsVector)
+            }
         });
 
         distance += innerProduct(lastAddedGroup.vectorArea, otherSessionGroupsAreaVector) * penalties.simultaneousSessionsAreaSimilarityPenaltyMultiplier;
+        distance += innerProduct(lastAddedGroup.commonTopicsVector, otherSessionCommonTopicsVector) * penalties.simultaneousSessionsCommonTopicSimilarityPenaltyMultiplier;
 
         var durationDiff = lastChangedSession.duration - lastAddedGroup.duration;
         if (durationDiff > 0) {

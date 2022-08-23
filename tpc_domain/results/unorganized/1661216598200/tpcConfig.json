@@ -1,0 +1,23 @@
+{
+    "baseTransitionCost": 1,
+    "sessionPenalties": {
+        "noCommonTopicsPenalty": 1,
+        "commonTopicsBeyondFirstPenaltyMultiplier": 1,
+        "areasBeyondFirstPenaltyMultiplier": {"withoutCommonTopics": 32, "withCommonTopics": 2},
+        "simultaneousSessionsAreaSimilarityPenaltyMultiplier": 32,
+        "undertimeNormalizedPenaltyMultiplier": 40,
+        "overtimeSessionDurationProductPenaltyMultiplier": 0.00625
+    },
+    "validDurations": [
+        { "sessionDuration":  60, "validDurations": [45, 50, 55, 60, 65]      },
+        { "sessionDuration":  75, "validDurations": [60, 65, 70, 75, 80]      },
+        { "sessionDuration":  90, "validDurations": [75, 80, 85, 90, 95]      },
+        { "sessionDuration": 105, "validDurations": [90, 95, 100, 105, 110]   },
+        { "sessionDuration": 120, "validDurations": [105, 110, 115, 120, 125] }
+    ],
+    "heuristicMultipliers": {"remainingPapersMultiplier": 1, "unmetPreferencesMultiplier": 1},
+    "iterativeAStar": {
+        "nodeReExpansionAdditionalCost": 16,
+        "maxSuccessorsPerIterationExpression": "Math.max(1024 / Math.pow(2, d), 4)"
+    }
+}

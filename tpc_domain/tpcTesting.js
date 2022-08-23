@@ -6,7 +6,9 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let rawdata = fs.readFileSync('iceis2022.json');
+let inputFilename = "input-enase";
+
+let rawdata = fs.readFileSync(`input/${inputFilename}.json`);
 
 let tpcConfig = {
     // Base cost added to g with each transition
@@ -14,28 +16,29 @@ let tpcConfig = {
     // Session evaluation penalty rules
     sessionPenalties: {
         // Base penalty for sessions without common topics
-        noCommonTopicsPenalty: 1,
+        noCommonTopicsPenalty: 4,
         // Multiplier for common topics total beyond first common topic
-        commonTopicsBeyondFirstPenaltyMultiplier: 1,
+        commonTopicsBeyondFirstPenaltyMultiplier: 2,
         // Multiplier for areas total beyond first area in group...
         areasBeyondFirstPenaltyMultiplier: {
             // ...when there aren't any topics in common
-            withoutCommonTopics: 16,
+            withoutCommonTopics: 32,
             // ...when there is at least a topic in common
             withCommonTopics: 2,
         },
         // Multiplier for total of duplicate simultaneous areas in different rooms
-        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 16,
+        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 8,
+        simultaneousSessionsCommonTopicSimilarityPenaltyMultiplier: 8,
 
         // Multiplier for undertime normalized relative to Session Duration
         // eg.: 15 / 60 = 0.25 * 10 = 2.5 penalty score added for being 15 minutes under in a 60 minutes session
         // eg.: 15 / 105 = ~0.143 * 10 = ~1.43 penalty score added for being 15 minutes under in a 105 minutes session
-        undertimeNormalizedPenaltyMultiplier: 40,
+        undertimeNormalizedPenaltyMultiplier: 80,
 
         // Multiplier for product between overtime and Session Duration (gets larger as any of the two increases).
         // eg.: 5 * 60 = 300 * 0.025 = 7.5 penalty score added for going 5 minutes over in a 60 minutes session
         // eg.: 5 * 105 = 525 * 0.025 = 13.125 penalty score added for going 5 minutes over in a 105 minutes session
-        overtimeSessionDurationProductPenaltyMultiplier: 0.00625
+        overtimeSessionDurationProductPenaltyMultiplier: 0.0125
     },
     // Valid paper group durations for given general session duration
     validDurations: [
@@ -70,7 +73,7 @@ let tpcConfig = {
     },
     iterativeAStar: {
         // Additional cost for each reexpansion of a node
-        nodeReExpansionAdditionalCost: 4,
+        nodeReExpansionAdditionalCost: 1,
         // JavaScript expression for determining how many sucessors to expand at once in function of d (depth)
         maxSuccessorsPerIterationExpression:
             //"Math.max(16 / Math.pow(2, d), 4)"
@@ -108,7 +111,11 @@ for (var i = 0; i < 1; i++){
 
     let {path, ...rest} = result;
     
-    var folderName = `results/${Date.now().valueOf()}`;
+    if (!fs.existsSync(`results/${inputFilename}`)) {
+        fs.mkdirSync(`results/${inputFilename}`);
+    }
+
+    var folderName = `results/${inputFilename}/${Date.now().valueOf()}`;
     
     fs.mkdirSync(folderName);
 
