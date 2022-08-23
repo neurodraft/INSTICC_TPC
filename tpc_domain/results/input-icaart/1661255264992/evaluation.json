@@ -1,0 +1,692 @@
+{
+    "evaluations": [
+        {
+            "gSessionId": 16814,
+            "evaluations": [
+                {
+                    "group": [108144, 108254, 108441, 108705],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 3,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107712, 108037, 108740, 108822],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 4,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107743, 108864, 108969, 109195],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107756, 107875, 109451, 109776],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 13,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 16
+        },
+        {
+            "gSessionId": 17146,
+            "evaluations": [
+                {
+                    "group": [107615, 108927, 109081],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 2,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.6666666666666665,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.6666666666666665
+                },
+                {
+                    "group": [108069, 108396, 108402],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 5,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.6666666666666665,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.6666666666666665
+                },
+                {
+                    "group": [108465, 108724, 109107],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.6666666666666665,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.6666666666666665
+                },
+                {
+                    "group": [107891, 107902, 108244],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 10,
+                    "penalties": [
+                        {
+                            "penalty": 5.333333333333333,
+                            "description": "Group duration short 10 minutes."
+                        }
+                    ],
+                    "penaltyScore": 5.333333333333333
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 16
+        },
+        {
+            "gSessionId": 16790,
+            "evaluations": [
+                {
+                    "group": [107835, 108151, 108391, 109543],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 4,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 1.9047619047619047,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 1.9047619047619047
+                },
+                {
+                    "group": [108198, 108216, 108450, 108645, 108674],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 4,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107489, 108452, 108812, 108814, 109174],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 12,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108139, 108379, 108841, 109075],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 9,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 16790, "articleId": 109075} ],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 1.9047619047619047,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 1.9047619047619047
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 16
+        },
+        {
+            "gSessionId": 16805,
+            "evaluations": [
+                {
+                    "group": [108270, 108471, 108739, 109806],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 5,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": -5,
+                    "penalties": [
+                        {
+                            "penalty": 5.625,
+                            "description": "Group duration exceeds session duration by 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 5.625
+                },
+                {
+                    "group": [107765, 107834, 108970, 108982],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108294, 108928, 109136, 109141],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 2,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [ {"penalty": 1, "description": "2 common topics in group."} ],
+                    "penaltyScore": 1
+                },
+                {
+                    "group": [107814, 108463, 108849, 108867],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 10,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 24
+        },
+        {
+            "gSessionId": 18049,
+            "evaluations": [
+                {
+                    "group": [107492, 107691, 108255, 109044],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 5,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 10,
+                    "penalties": [
+                        {
+                            "penalty": 3.8095238095238093,
+                            "description": "Group duration short 10 minutes."
+                        }
+                    ],
+                    "penaltyScore": 3.8095238095238093
+                },
+                {
+                    "group": [107704, 108163, 108295, 109185, 109273],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107860, 107991, 108438, 108577, 108837],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 7,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108229, 108363, 108370, 108774, 109743],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 12,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 18049, "articleId": 109743} ],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 24
+        },
+        {
+            "gSessionId": 16815,
+            "evaluations": [
+                {
+                    "group": [108322, 108775, 109784, 109824, 109927],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 4,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 16815, "articleId": 108322} ],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 1.9047619047619047,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 1.9047619047619047
+                },
+                {
+                    "group": [108419, 108496, 108695, 109282, 109546],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107751, 107861, 109016, 109119, 109137],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 9,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108203, 108268, 108444, 109027, 109145],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 13,
+                    "commonTopicsTotal": 0,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [ {"penalty": 1, "description": "No topics in common."} ],
+                    "penaltyScore": 1
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 16
+        },
+        {
+            "gSessionId": 16803,
+            "evaluations": [
+                {
+                    "group": [108125, 108242, 108297, 109173],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 4,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107746, 107850, 107930, 108356],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108191, 108277, 108955, 109232],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 12,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.2222222222222223,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.2222222222222223
+                },
+                {
+                    "group": [107634, 108578, 108680, 108893],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 11,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108387, 108980, 108985, 109092],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 13,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 16803, "articleId": 109092} ],
+                    "leftoverTime": 10,
+                    "penalties": [
+                        {
+                            "penalty": 4.444444444444445,
+                            "description": "Group duration short 10 minutes."
+                        }
+                    ],
+                    "penaltyScore": 4.444444444444445
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 24
+        },
+        {
+            "gSessionId": 16789,
+            "evaluations": [
+                {
+                    "group": [109207, 109516, 109851],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 3,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.6666666666666665,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.6666666666666665
+                },
+                {
+                    "group": [108346, 108443, 108479],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108491, 109003, 109700],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 5,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 2.6666666666666665,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 2.6666666666666665
+                },
+                {
+                    "group": [107831, 107994, 108451],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 10,
+                    "penalties": [
+                        {
+                            "penalty": 5.333333333333333,
+                            "description": "Group duration short 10 minutes."
+                        }
+                    ],
+                    "penaltyScore": 5.333333333333333
+                },
+                {
+                    "group": [107852, 108579, 109930],
+                    "decision": "VALID with 2 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 12,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [
+                        { "sessionId": 16789, "articleId": 108579 },
+                        { "sessionId": 16789, "articleId": 109930 }
+                    ],
+                    "leftoverTime": 10,
+                    "penalties": [
+                        {
+                            "penalty": 5.333333333333333,
+                            "description": "Group duration short 10 minutes."
+                        }
+                    ],
+                    "penaltyScore": 5.333333333333333
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 24
+        },
+        {
+            "gSessionId": 16804,
+            "evaluations": [
+                {
+                    "group": [107866, 108388, 109845, 109891],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 5,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 1.9047619047619047,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 1.9047619047619047
+                },
+                {
+                    "group": [108348, 108361, 108821, 108873, 109737],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {
+                            "penalty": 1.9047619047619047,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 1.9047619047619047
+                },
+                {
+                    "group": [108025, 108165, 108257, 108303, 109042],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 7,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107695, 107993, 108211, 108711, 109038],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 13,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107963, 108175, 108472, 108974, 109183],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 22,
+                    "commonTopicsTotal": 0,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [ {"penalty": 1, "description": "No topics in common."} ],
+                    "penaltyScore": 1
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 24
+        },
+        {
+            "gSessionId": 16791,
+            "evaluations": [
+                {
+                    "group": [107683, 107864, 108704, 108785],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 6,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107470, 108571, 108933, 108954],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108029, 108499, 108656, 109102],
+                    "decision": "VALID",
+                    "areaTotal": 1,
+                    "topicTotal": 9,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [107855, 108014, 108208, 108596],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 8,
+                    "commonTopicsTotal": 1,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 16791, "articleId": 108596} ],
+                    "leftoverTime": 0,
+                    "penalties": [],
+                    "penaltyScore": 0
+                },
+                {
+                    "group": [108230, 108710, 109009, 109161],
+                    "decision": "VALID with 1 preference(s)",
+                    "areaTotal": 1,
+                    "topicTotal": 13,
+                    "commonTopicsTotal": 0,
+                    "foundRestrictions": [],
+                    "foundPreferences": [ {"sessionId": 16791, "articleId": 108710} ],
+                    "leftoverTime": 5,
+                    "penalties": [
+                        {"penalty": 1, "description": "No topics in common."},
+                        {
+                            "penalty": 2.2222222222222223,
+                            "description": "Group duration short 5 minutes."
+                        }
+                    ],
+                    "penaltyScore": 3.2222222222222223
+                }
+            ],
+            "simultaneousAreasPenaltyScore": 32
+        }
+    ],
+    "decision": "VALID",
+    "totalRestrictions": 0,
+    "totalPreferences": 8,
+    "unmetPreferences": 17,
+    "unmetPreferencesPenalty": 17,
+    "penaltyScore": 294.18055555555554
+}

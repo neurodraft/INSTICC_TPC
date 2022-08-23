@@ -6,7 +6,7 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let inputFilename = "input-enase";
+let inputFilename = "input-icaart";
 
 let rawdata = fs.readFileSync(`input/${inputFilename}.json`);
 
@@ -22,12 +22,12 @@ let tpcConfig = {
         // Multiplier for areas total beyond first area in group...
         areasBeyondFirstPenaltyMultiplier: {
             // ...when there aren't any topics in common
-            withoutCommonTopics: 32,
+            withoutCommonTopics: 8,
             // ...when there is at least a topic in common
             withCommonTopics: 2,
         },
         // Multiplier for total of duplicate simultaneous areas in different rooms
-        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 8,
+        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 1,
         simultaneousSessionsCommonTopicSimilarityPenaltyMultiplier: 8,
 
         // Multiplier for undertime normalized relative to Session Duration
@@ -73,7 +73,7 @@ let tpcConfig = {
     },
     iterativeAStar: {
         // Additional cost for each reexpansion of a node
-        nodeReExpansionAdditionalCost: 1,
+        nodeReExpansionAdditionalCost: 20,
         // JavaScript expression for determining how many sucessors to expand at once in function of d (depth)
         maxSuccessorsPerIterationExpression:
             //"Math.max(16 / Math.pow(2, d), 4)"
