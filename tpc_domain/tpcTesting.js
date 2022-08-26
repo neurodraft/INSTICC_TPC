@@ -6,7 +6,7 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let inputFilename = "input-icaart";
+let inputFilename = "input-data";
 
 let rawdata = fs.readFileSync(`input/${inputFilename}.json`);
 
