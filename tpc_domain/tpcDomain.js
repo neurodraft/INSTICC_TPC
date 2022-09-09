@@ -3,7 +3,7 @@ const fs = require('fs');
 const { match } = require('assert');
 
 module.exports = function (rawdata, tpcConfig) {
-    const { sessions, papers, restrictions, preferences, topics, areas } = JSON.parse(rawdata);
+    const { sessions, papers, restrictions, preferences, topics, areas, gSessions } = JSON.parse(rawdata);
 
     var authors = [];
     papers.forEach(paper => {
@@ -13,16 +13,25 @@ module.exports = function (rawdata, tpcConfig) {
 
     addAuthorsVectors(papers, authors);
 
+    
     const gSessionsIds = sessions.map(s => s.gSessionId).filter((v, i, a) => a.indexOf(v) === i).sort();
 
-    const gSessions = gSessionsIds.map(gSessionId => {
+    const gSessionmaxParallelSessionsMap = new Map();
+
+    if (gSessions != undefined) {
+        gSessions.forEach(gSession => {
+            gSessionmaxParallelSessionsMap.set(gSession.id, gSession.maxParallelSessions);
+        })
+    }
+
+    var initialGSessions = gSessionsIds.map(gSessionId => {
         var session = sessions.find(s => s.gSessionId === gSessionId);
         return { id: gSessionId, duration: session.duration, groups: [], authorsVector: new Array(authors.length).fill(0) };
     });
 
-    const totalSessionDuration = gSessions.reduce((partialSum, s) => partialSum + s.duration, 0);
+    const totalSessionDuration = initialGSessions.reduce((partialSum, s) => partialSum + s.duration, 0);
 
-    const averageSessionDuration = totalSessionDuration / gSessions.length;
+    const averageSessionDuration = totalSessionDuration / initialGSessions.length;
 
     const totalPaperDuration = papers.reduce((partialSum, p) => partialSum + p.duration, 0);
 
@@ -56,7 +65,7 @@ module.exports = function (rawdata, tpcConfig) {
     var startState = {
         //remainingSessions: remainingSessions,
         remainingPapers: remainingPapers,
-        gSessions: gSessions,
+        gSessions: initialGSessions,
         stateId: 0,
         //distanceTotal: 0,
     }
@@ -370,18 +379,33 @@ module.exports = function (rawdata, tpcConfig) {
         return authorsVector;
     }
 
-    function gSessionsWithLeastGroups(stateGSessions) {
+    // Get only unfullfiled gSessions (also with least remaining parallel sessions optionally)
+    function gSessionSuccessorsFilter(stateGSessions) {
         var groupLengthMin = undefined;
-        stateGSessions.forEach(m => {
-            if (groupLengthMin === undefined) {
-                groupLengthMin = m.groups.length;
-            } else if (m.groups.length < groupLengthMin) {
-                groupLengthMin = m.groups.length;
-            }
-        });
+
+        if (tpcConfig.distributeRoomsEvenly) {
+            stateGSessions.forEach(m => {
+                let maxParallelSessions = gSessionmaxParallelSessionsMap.get(m.id);
+                if (maxParallelSessions == undefined || m.groups.length < maxParallelSessions) {
+                    if (groupLengthMin === undefined) {
+                        groupLengthMin = m.groups.length;
+                    } else if (m.groups.length < groupLengthMin) {
+                        groupLengthMin = m.groups.length;
+                    }
+                }
+                
+            });
+        }
+        
         var gSessions = [];
         stateGSessions.forEach(s => {
-            if (s.groups.length == groupLengthMin) gSessions.push(s);
+            let maxParallelSessions = gSessionmaxParallelSessionsMap.get(s.id);
+            if (maxParallelSessions == undefined || s.groups.length < maxParallelSessions)
+                if (tpcConfig.distributeRoomsEvenly) {
+                    if (s.groups.length == groupLengthMin) gSessions.push(s);
+                } else {
+                    gSessions.push(s);
+                }
         })
 
         return gSessions;
@@ -395,7 +419,7 @@ module.exports = function (rawdata, tpcConfig) {
             expansionState = stateExpansionDataMap.get(state);
         } else {
             expansionState = {
-                validSessions: gSessionsWithLeastGroups(state.gSessions).sort((a, b) => 0.5 - Math.random()),
+                validSessions: gSessionSuccessorsFilter(state.gSessions).sort((a, b) => b.duration - a.duration),
                 index: 0
             };
             stateExpansionDataMap.set(state, expansionState);

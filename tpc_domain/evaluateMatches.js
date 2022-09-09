@@ -101,11 +101,12 @@ function evaluateMatches(gSessions, restrictions, preferences) {
 
         var simultaneousAreasPenaltyScore = 0;
 
-        areasTotalsVector.forEach(e => {
-            if (e > 1) {
-                simultaneousAreasPenaltyScore += e - 1;
-            }
-        })
+        if (areasTotalsVector != undefined)
+            areasTotalsVector.forEach(e => {
+                if (e > 1) {
+                    simultaneousAreasPenaltyScore += e - 1;
+                }
+            })
 
         simultaneousAreasPenaltyScore *= 8;
 

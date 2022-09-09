@@ -6,9 +6,9 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let inputFilename = "input-data";
+let inputFilename = "input-iceis";
 
-let rawdata = fs.readFileSync(`input/${inputFilename}.json`);
+let rawdata = fs.readFileSync(`input/newInput/${inputFilename}.json`);
 
 let tpcConfig = {
     // Base cost added to g with each transition
@@ -16,9 +16,9 @@ let tpcConfig = {
     // Session evaluation penalty rules
     sessionPenalties: {
         // Base penalty for sessions without common topics
-        noCommonTopicsPenalty: 4,
+        noCommonTopicsPenalty: 1,
         // Multiplier for common topics total beyond first common topic
-        commonTopicsBeyondFirstPenaltyMultiplier: 2,
+        commonTopicsBeyondFirstPenaltyMultiplier: 1,
         // Multiplier for areas total beyond first area in group...
         areasBeyondFirstPenaltyMultiplier: {
             // ...when there aren't any topics in common
@@ -27,7 +27,7 @@ let tpcConfig = {
             withCommonTopics: 2,
         },
         // Multiplier for total of duplicate simultaneous areas in different rooms
-        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 1,
+        simultaneousSessionsAreaSimilarityPenaltyMultiplier: 8,
         simultaneousSessionsCommonTopicSimilarityPenaltyMultiplier: 8,
 
         // Multiplier for undertime normalized relative to Session Duration
@@ -86,7 +86,8 @@ let tpcConfig = {
             //"2048"
             //"Math.max(256 / (d + 1), 8)"
             //"Math.max(64 / (d + 1), 4)"
-    }
+    },
+    distributeRoomsEvenly: true
     
 };
 
