@@ -146,6 +146,7 @@ function mapResults(result, rawdata) {
             id += 1;
             simplified.Sessions.push({
                 Id: id.toString(),
+                GSessionId: gSession.id,
                 Identifier: id.toString(),
                 Name: g.commonTopicsVector.some(v => v == 1)
                     ? commonTopicsToTitle(g.commonTopicsVector, topics)

@@ -1,0 +1,2791 @@
+{
+  "Id": "",
+  "Name": "",
+  "Start": "2022-10-25T10:15:00.000Z",
+  "End": "2022-10-27T16:15:00.000Z",
+  "Location": "",
+  "URL": "",
+  "Email": "",
+  "Sessions": [
+    {
+      "Id": "1",
+      "Identifier": "1",
+      "Name": "UX and User-Centric Systems , Human Computer Interaction",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-25T16:00:00.000Z",
+      "End": "2022-10-25T17:30:00.000Z",
+      "Areas": [
+        {
+          "Id": 1008,
+          "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+          "Topics": []
+        }
+      ],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 113801,
+          "Identifier": "1-0",
+          "Title": "Impact of Usage Behaviour on the User Experience of Netflix, Microsoft Powerpoint, Bigbluebutton and Zoom",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Jessica Kollmorgen",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Martin Schrepp",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Jörg Thomaschewski",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1008,
+              "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 8810, "Name": "UX and User-Centric Systems " },
+            { "Id": 27, "Name": "Human Factors" },
+            { "Id": 4737, "Name": "Human Computer Interaction" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 113833,
+          "Identifier": "1-1",
+          "Title": "Identifying User Experience Aspects for Voice User Interfaces with Intensive Users",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Kristina Kölln",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Jana Deutschländer",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Andreas Klein",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Maria Rauschenberger",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Dominique Winter",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1008,
+              "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 8810, "Name": "UX and User-Centric Systems " },
+            { "Id": 8811, "Name": "Interaction Design" },
+            { "Id": 4737, "Name": "Human Computer Interaction" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115892,
+          "Identifier": "1-2",
+          "Title": "Space Geeks: A Proposed Serious Game to Teach Array Concept for Novice Programming Students",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Abdelbaset Assaf",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Mohammed Eshtay",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Lana Issa",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1008,
+              "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 8810, "Name": "UX and User-Centric Systems " },
+            { "Id": 8811, "Name": "Interaction Design" },
+            { "Id": 4737, "Name": "Human Computer Interaction" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115914,
+          "Identifier": "1-3",
+          "Title": "An Interaction Effort Score for Web Pages",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Juan Gardey",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Julián Grigera",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Andrés Rodríguez",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Gustavo Rossi",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Alejandra Garrido",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1008,
+              "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 4790, "Name": "Design of Web Interface " },
+            { "Id": 4799, "Name": "Web Interfaces and Applications" },
+            { "Id": 8810, "Name": "UX and User-Centric Systems " },
+            { "Id": 4737, "Name": "Human Computer Interaction" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "2",
+      "Identifier": "2",
+      "Name": "INTERNET TECHNOLOGY",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-26T08:00:00.000Z",
+      "End": "2022-10-26T09:30:00.000Z",
+      "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 115416,
+          "Identifier": "2-0",
+          "Title": "Privacy Policy Beautifier: Bringing Privacy Policies Closer to Users",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Michalis Kaili",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Georgia Kapitsaki",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 6853,
+              "Name": "Web Security and Privacy, Cyber Criminality and Internet, Dark Web "
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115612,
+          "Identifier": "2-1",
+          "Title": "Using Feature Analysis to Guide Risk Calculations of Cyber Incidents",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Benjamin Aziz",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Alaa Mohasseb",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 6853,
+              "Name": "Web Security and Privacy, Cyber Criminality and Internet, Dark Web "
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115762,
+          "Identifier": "2-2",
+          "Title": "The Ginger: Another Spice to Hinder Attacks on Password Files",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Francesco Buccafurri",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Vincenzo De Angelis",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Sara Lazzaro",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 6853,
+              "Name": "Web Security and Privacy, Cyber Criminality and Internet, Dark Web "
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115885,
+          "Identifier": "2-3",
+          "Title": "Semi real-time data cleaning of spatially correlated data in traffic sensor networks",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Federica Rollo",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Chiara Bachechi",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Laura Po",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 4782,
+              "Name": "Application, Research Project and Internet Technology"
+            },
+            { "Id": 2136, "Name": "Internet of Things" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "3",
+      "Identifier": "3",
+      "Name": "Web Information Filtering and Retrieval",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-26T10:30:00.000Z",
+      "End": "2022-10-26T12:00:00.000Z",
+      "Areas": [
+        {
+          "Id": 1006,
+          "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+          "Topics": []
+        }
+      ],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 115259,
+          "Identifier": "3-0",
+          "Title": "Factoid vs. Non-factoid Question Identification: An Ensemble Learning Approach",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Alaa Mohasseb",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Andreas Kanavos",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 4805, "Name": "Data Web Mining" },
+            { "Id": 1421, "Name": "Web Information Filtering and Retrieval" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115368,
+          "Identifier": "3-1",
+          "Title": "A Simple Algorithm for Checking Pattern Query Containment under Shape Expression Schema",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Haruna Fujimoto",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Nobutaka Suzuki",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            {
+              "Id": 6856,
+              "Name": "Technical Infrastructures Suporting Web Applications "
+            },
+            { "Id": 1421, "Name": "Web Information Filtering and Retrieval" },
+            {
+              "Id": 4801,
+              "Name": "New Trends in Ontology Management and the Semantic Web"
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115474,
+          "Identifier": "3-2",
+          "Title": "Towards Soft Web Intelligence by Collecting and Processing JSON Data Sets from Web Sources",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Paolo Fosci",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Giuseppe Psaila",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            {
+              "Id": 4811,
+              "Name": "Applications, Research Projects and Web Intelligence"
+            },
+            { "Id": 1421, "Name": "Web Information Filtering and Retrieval" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115913,
+          "Identifier": "3-3",
+          "Title": "Exploiting Linked Data-based Personalization Strategies for Recommender Systems",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Gabriela Da Silva",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Frederico Durão",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 2826, "Name": "Computational Intelligence on the Web" },
+            {
+              "Id": 6881,
+              "Name": "Linked Data, Big Data and Applications in Companies"
+            },
+            { "Id": 1421, "Name": "Web Information Filtering and Retrieval" },
+            { "Id": 8261, "Name": "Knowledge Graphs and Deep Semantics " }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "4",
+      "Identifier": "4",
+      "Name": "INTERNET TECHNOLOGY",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-26T14:30:00.000Z",
+      "End": "2022-10-26T16:30:00.000Z",
+      "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 113817,
+          "Identifier": "4-0",
+          "Title": "Classifying the Reliability of the Microservices Architecture",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Adrian Ramsingh",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Jeremy Singer",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Phil Trinder",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 2823, "Name": "Web Programming" },
+            { "Id": 539, "Name": "Web Services and Web Engineering" },
+            { "Id": 4720, "Name": "Web Tools and Languages" },
+            {
+              "Id": 6865,
+              "Name": "Methodologies for Services and Architecture "
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115261,
+          "Identifier": "4-1",
+          "Title": "Evaluation of Project Work in Public Administrations in E-government and Digitization Projects in Germany",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Hanna Looks",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Anja Gebauer",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Jörg Thomaschewski",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "María Escalona",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Eva-Maria Schön",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 6889, "Name": "Digitalization/ Digitization" },
+            { "Id": 27, "Name": "Human Factors" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115478,
+          "Identifier": "4-2",
+          "Title": "Adaptive and Collaborative Inference: Towards a No-compromise Framework for Distributed Intelligent Systems",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Alireza Furutanpey",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Schahram Dustdar",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 2136, "Name": "Internet of Things" },
+            {
+              "Id": 4811,
+              "Name": "Applications, Research Projects and Web Intelligence"
+            },
+            { "Id": 2826, "Name": "Computational Intelligence on the Web" },
+            { "Id": 5003, "Name": "Deep Learning" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115755,
+          "Identifier": "4-3",
+          "Title": "Machine Learning and Raspberry PI Cluster for Training and Detecting Skin Cancer",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Elias Matos",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Edward Moreno",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Kalil Bispo",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 6889, "Name": "Digitalization/ Digitization" },
+            { "Id": 2136, "Name": "Internet of Things" },
+            { "Id": 4781, "Name": "New Trends in Internet Technology" },
+            {
+              "Id": 6856,
+              "Name": "Technical Infrastructures Suporting Web Applications "
+            },
+            {
+              "Id": 6865,
+              "Name": "Methodologies for Services and Architecture "
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115911,
+          "Identifier": "4-4",
+          "Title": "A Distributed Registry of Multi-perspective Data Services in Cyber Physical Production Networks",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Ada Bagozi",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Devis Bianchini",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Anisa Rula",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 2136, "Name": "Internet of Things" },
+            {
+              "Id": 6865,
+              "Name": "Methodologies for Services and Architecture "
+            },
+            { "Id": 6866, "Name": "Technical Infrastructure for Services " },
+            {
+              "Id": 4786,
+              "Name": "Web Based Integration Technologies, Web Services, REST and CRUD Services"
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "5",
+      "Identifier": "5",
+      "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-27T14:30:00.000Z",
+      "End": "2022-10-27T16:15:00.000Z",
+      "Areas": [
+        {
+          "Id": 1006,
+          "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+          "Topics": []
+        }
+      ],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 115276,
+          "Identifier": "5-0",
+          "Title": "Comparative Analysis of Recurrent Neural Network Architectures for Arabic Word Sense Disambiguation",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Rakia Saidi",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Fethi Jarray",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Mohammed Alsuhaibani",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 5003, "Name": "Deep Learning" },
+            { "Id": 714, "Name": "Natural Language Processing " }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115277,
+          "Identifier": "5-1",
+          "Title": "Using Transfer Learning To Classify Long Unstructured Texts with Small Amounts of Labeled Data",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Carlos Rocha",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Marcos Dib",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Li Weigang",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Andrea Nunes",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Allan Faria",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Daniel Cajueiro",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Maísa Kely de Melo",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Victor Celestino",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            {
+              "Id": 4811,
+              "Name": "Applications, Research Projects and Web Intelligence"
+            },
+            {
+              "Id": 4802,
+              "Name": "Context, Adaptability and Web Intelligence"
+            },
+            { "Id": 4805, "Name": "Data Web Mining" },
+            { "Id": 5003, "Name": "Deep Learning" },
+            { "Id": 714, "Name": "Natural Language Processing " }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115422,
+          "Identifier": "5-2",
+          "Title": "Classification of the Top-cited Literature by Fusing Linguistic and Citation Information with the Transformer Model",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Masanao Ochi",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Masanori Shiro",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Jun’ichiro Mori",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Ichiro Sakata",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 5003, "Name": "Deep Learning" },
+            { "Id": 714, "Name": "Natural Language Processing " },
+            {
+              "Id": 4800,
+              "Name": "Ontology Discovering, Modelling, Retrieving and the Semantic Web"
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115853,
+          "Identifier": "5-3",
+          "Title": "Characterizing Open Government Data Available on the Web from the Quality Perspective: A Systematic Mapping Study",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Rafael Almeida",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Glauco Carneiro",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Edward Moreno",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1006,
+              "Name": "WEB INTELLIGENCE and SEMANTIC WEB",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            {
+              "Id": 4811,
+              "Name": "Applications, Research Projects and Web Intelligence"
+            },
+            { "Id": 4805, "Name": "Data Web Mining" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "6",
+      "Identifier": "6",
+      "Name": "SOCIAL NETWORK ANALYTICS ",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-27T10:45:00.000Z",
+      "End": "2022-10-27T12:00:00.000Z",
+      "Areas": [
+        { "Id": 1007, "Name": "SOCIAL NETWORK ANALYTICS ", "Topics": [] }
+      ],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 113521,
+          "Identifier": "6-0",
+          "Title": "A Skill Sharing Platform for Team Collaboration and Knowledge Exchange",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Victor Obionwu",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Andreas Nurnberger",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Gunter Saake",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            { "Id": 1007, "Name": "SOCIAL NETWORK ANALYTICS ", "Topics": [] }
+          ],
+          "Topics": [
+            { "Id": 714, "Name": "Natural Language Processing " },
+            { "Id": 3644, "Name": "Recommendation Systems" },
+            { "Id": 6116, "Name": "Decision Making" },
+            { "Id": 2519, "Name": "Collaborative Filtering" },
+            { "Id": 8809, "Name": "Document Clustering" },
+            { "Id": 595, "Name": "Social Information Systems" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115423,
+          "Identifier": "6-1",
+          "Title": "Cooking Reviews Segmentation and Classification based on Deep Learning and Named Entity Detection.",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Randa Benkhelifa",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Nasria Bouhyaoui",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            { "Id": 1007, "Name": "SOCIAL NETWORK ANALYTICS ", "Topics": [] }
+          ],
+          "Topics": [
+            {
+              "Id": 4782,
+              "Name": "Application, Research Project and Internet Technology"
+            },
+            { "Id": 4805, "Name": "Data Web Mining" },
+            { "Id": 5003, "Name": "Deep Learning" },
+            { "Id": 4803, "Name": "Social Web Intelligence" },
+            { "Id": 595, "Name": "Social Information Systems" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115925,
+          "Identifier": "6-2",
+          "Title": "Do Top Higher Education Institutions’ Social Media Communication Differ Depending on their Rank?",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Alvaro Figueira",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Lirielly Nascimento",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            { "Id": 1007, "Name": "SOCIAL NETWORK ANALYTICS ", "Topics": [] }
+          ],
+          "Topics": [{ "Id": 3642, "Name": "Social Media Analytics" }],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    },
+    {
+      "Id": "7",
+      "Identifier": "7",
+      "Name": "INTERNET TECHNOLOGY, HCI in MOBILE SYSTEMS and WEB INTERFACES",
+      "Type": {
+        "Id": "",
+        "Name": "",
+        "Color": "#589A58",
+        "ShowDuration": true,
+        "SinglePresentation": false
+      },
+      "Room": null,
+      "Start": "2022-10-25T10:15:00.000Z",
+      "End": "2022-10-25T12:00:00.000Z",
+      "Areas": [
+        { "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] },
+        {
+          "Id": 1008,
+          "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+          "Topics": []
+        }
+      ],
+      "ParticipantGroups": [],
+      "Presentations": [
+        {
+          "Id": 115264,
+          "Identifier": "7-0",
+          "Title": "Few-shot Approach for Systematic Literature Review Classifications",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Maísa Kely de Melo",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Allan Faria",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Li Weigang",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Arthur Nery",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Flávio R. de Oliveira",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Ian Barreiro",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Victor Celestino",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 4782,
+              "Name": "Application, Research Project and Internet Technology"
+            },
+            {
+              "Id": 4811,
+              "Name": "Applications, Research Projects and Web Intelligence"
+            },
+            { "Id": 2826, "Name": "Computational Intelligence on the Web" },
+            { "Id": 5003, "Name": "Deep Learning" },
+            { "Id": 714, "Name": "Natural Language Processing " }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115371,
+          "Identifier": "7-1",
+          "Title": "Agile in Higher Education: How Can Value-based Learning Be Implemented in Higher Education?",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Eva-Maria Schön",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Ilona Buchem",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Stefano Sostak",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            { "Id": 6889, "Name": "Digitalization/ Digitization" },
+            { "Id": 595, "Name": "Social Information Systems" },
+            { "Id": 8810, "Name": "UX and User-Centric Systems " },
+            { "Id": 27, "Name": "Human Factors" },
+            { "Id": 4737, "Name": "Human Computer Interaction" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115500,
+          "Identifier": "7-2",
+          "Title": "AKIP Process Automation Platform: A Framework for the Development of Process-Aware Web Applications",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 25,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Ulisses Neto",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Toacy Oliveira",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Raquel Pillat",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Paulo Alencar",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Don Cowan",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Glaucia Melo",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [{ "Id": 48, "Name": "INTERNET TECHNOLOGY", "Topics": [] }],
+          "Topics": [
+            {
+              "Id": 4782,
+              "Name": "Application, Research Project and Internet Technology"
+            },
+            { "Id": 2823, "Name": "Web Programming" },
+            { "Id": 4720, "Name": "Web Tools and Languages" },
+            {
+              "Id": 4789,
+              "Name": "Application, Research Project and Service Based IS"
+            }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        },
+        {
+          "Id": 115917,
+          "Identifier": "7-3",
+          "Title": "CORNUCOPIA: Tool Support for Selecting Machine Learning Lifecycle Artifact Management Systems",
+          "Abstract": "",
+          "Keywords": "",
+          "DOI": "",
+          "Duration": 20,
+          "Type": {
+            "Acronym": "S",
+            "Name": "Short Paper",
+            "Color": "DarkSeaGreen"
+          },
+          "Speakers": [],
+          "Authors": [
+            {
+              "Id": "",
+              "Name": "Marius Schlegel",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            },
+            {
+              "Id": "",
+              "Name": "Kai-Uwe Sattler",
+              "Biography": "",
+              "PhotoURL": "",
+              "Affiliations": [
+                {
+                  "Name": "Polytechnic Institute of Setubal / INSTICC",
+                  "Country": { "Id": "PT", "Name": "Portugal" }
+                }
+              ],
+              "Country": { "Id": "PT", "Name": "Portugal" },
+              "Gender": "1",
+              "Order": 0,
+              "RegistrationNumber": 0,
+              "Contacts": [],
+              "TotalAffiliations": 1
+            }
+          ],
+          "Areas": [
+            {
+              "Id": 1008,
+              "Name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+              "Topics": []
+            }
+          ],
+          "Topics": [
+            { "Id": 4790, "Name": "Design of Web Interface " },
+            { "Id": 4799, "Name": "Web Interfaces and Applications" }
+          ],
+          "SessionID": "",
+          "PaperURL": "",
+          "PresentationURL": "",
+          "IsInvited": false,
+          "ParticipantMode": null
+        }
+      ]
+    }
+  ],
+  "Zones": [],
+  "MapURL": "",
+  "Organizingcomittee": [],
+  "InternetRooms": [],
+  "Venue": { "Events": [] },
+  "flag": true,
+  "OnlineStreaming": true
+}

@@ -6,7 +6,7 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let inputFilename = "input-data";
+let inputFilename = "webist";
 
 let rawdata = fs.readFileSync(`input/newInput/${inputFilename}.json`);
 
@@ -16,13 +16,13 @@ let tpcConfig = {
     // Session evaluation penalty rules
     sessionPenalties: {
         // Base penalty for sessions without common topics
-        noCommonTopicsPenalty: 2,
+        noCommonTopicsPenalty: 200,
         // Multiplier for common topics total beyond first common topic
         commonTopicsBeyondFirstPenaltyMultiplier: 1,
         // Multiplier for areas total beyond first area in group...
         areasBeyondFirstPenaltyMultiplier: {
             // ...when there aren't any topics in common
-            withoutCommonTopics: 8,
+            withoutCommonTopics: 32,
             // ...when there is at least a topic in common
             withCommonTopics: 2,
         },
@@ -33,7 +33,7 @@ let tpcConfig = {
         // Multiplier for undertime normalized relative to Session Duration
         // eg.: 15 / 60 = 0.25 * 10 = 2.5 penalty score added for being 15 minutes under in a 60 minutes session
         // eg.: 15 / 105 = ~0.143 * 10 = ~1.43 penalty score added for being 15 minutes under in a 105 minutes session
-        undertimeNormalizedPenaltyMultiplier: 40,
+        undertimeNormalizedPenaltyMultiplier: 10,
 
         // Multiplier for product between overtime and Session Duration (gets larger as any of the two increases).
         // eg.: 5 * 60 = 300 * 0.025 = 7.5 penalty score added for going 5 minutes over in a 60 minutes session
@@ -71,13 +71,15 @@ let tpcConfig = {
         // Multiplier for unmet preferences total
         unmetPreferencesMultiplier: 1,
         // Total of sessions with no rooms multiplier
-        sessionsWithNoRoomsMultiplier: 8,
+        sessionsWithNoRoomsMultiplier: 16,
         // Multiplier for standard deviation in set of room amount by uncomplete session, subtracted by 0.5 [SD(RoomAmountBySession) - 0.5]
         roomSessionUnevenessMultiplier: 8,
         // Overfilling room total multiplier
         overfillingRoomTotalMultiplier: 8
     },
     iterativeAStar: {
+        // Time limit, return best goal if found any
+        timeLimit: 600000,
         // Additional cost for each reexpansion of a node
         nodeReExpansionAdditionalCost: 20,
         // JavaScript expression for determining how many sucessors to expand at once in function of d (depth)
@@ -88,7 +90,7 @@ let tpcConfig = {
             //"Math.max(128 / Math.pow(2, d), 4)"
             //"Math.max(256 / Math.pow(2, d), 4)"
             //"Math.max(512 / Math.pow(2, d), 4)"
-            "Math.max(1024 / Math.pow(2, d), 4)"
+            "Math.max(1024 / Math.pow(2, d), 4)",
             //"2048"
             //"Math.max(256 / (d + 1), 8)"
             //"Math.max(64 / (d + 1), 4)"
@@ -114,7 +116,7 @@ const formatter = new Formatter();
 
 for (var i = 0; i < 1; i++){
 
-    var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration, reExpansionPenalty, undefined, stateHash, progressReport);
+    var result = aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuristic, maxSuccessorsPerIteration, reExpansionPenalty, tpcConfig.iterativeAStar.timeLimit, stateHash, progressReport);
 
     clearStateExpansionDataMap();
 

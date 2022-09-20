@@ -87,6 +87,9 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
     var openNodesHeap = new Heap((a, b) =>
         (a.f + (a.timesExpanded * reExpansionPenalty)) - (b.f + (b.timesExpanded * reExpansionPenalty)));
 
+    var goalNodesHeap = new Heap((a, b) =>
+        a.f  - b.f);
+
     // Map between unique state hashes and existing nodes in closed set
     //var closedNodesMap = new Map();
 
@@ -129,26 +132,23 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
                 reExpandedNodes: reExpandedNodes,
                 discartedBranches: discartedBranches,
                 lastExpanded: lastExpanded,
-                bestSoFar: bestSoFar
+                bestSoFar: bestSoFar,
+                goalNodesFound: goalNodesHeap.size(),
             });
             lastReport = nextReport;
         }
 
         // if node still wasn't tested and is goal state, reconstruct path and return
         // otherwise flag as tested to ignore in later expansions
-        if (!node.tested) {
-            if (isGoalState(node.state)) {
+        if (goalNodesHeap.contains(node)) {        
                 result = new AStarResult(reconstructPath(node), generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.Successfull);
-                break;
-            }
 
-            node.tested = true;
         }
 
         // if time limit is defined and duration exceeds limit, quit.
         if (timeLimit !== undefined) {
             if (timeDuration > timeLimit) {
-                result = new AStarResult(null, generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.TimeOut);
+                result = new AStarResult(reconstructPath(goalNodesHeap.pop()), generatedNodes, expandedNodes, reExpandedNodes, discartedBranches, timeDuration, ResultStatus.TimeOut);
                 break;
             }
         }
@@ -240,6 +240,10 @@ function aStarIS(startState, isGoalState, nextSuccessor, distanceBetween, heuris
             // }
 
             openNodesHeap.push(successorNode);
+
+            if (isGoalState(successorNode.state)){
+                goalNodesHeap.push(successorNode);
+            }
         }
 
         node.timesExpanded += 1;

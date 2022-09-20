@@ -1,0 +1,1190 @@
+{
+  "papers": [
+    {
+      "id": 115423,
+      "number": 28,
+      "title": "Cooking Reviews Segmentation and Classification based on Deep Learning and Named Entity Detection.",
+      "authors": ["Randa Benkhelifa", "Nasria Bouhyaoui"],
+      "duration": 25,
+      "vector": [
+        1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+        0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 0, 1, 0],
+      "best": false
+    },
+    {
+      "id": 115755,
+      "number": 41,
+      "title": "Machine Learning and Raspberry PI Cluster for Training and Detecting Skin Cancer",
+      "authors": ["Elias Matos", "Edward Moreno", "Kalil Bispo"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115277,
+      "number": 17,
+      "title": "Using Transfer Learning To Classify Long Unstructured Texts with Small Amounts of Labeled Data",
+      "authors": [
+        "Carlos Rocha",
+        "Marcos Dib",
+        "Li Weigang",
+        "Andrea Nunes",
+        "Allan Faria",
+        "Daniel Cajueiro",
+        "Maísa Kely de Melo",
+        "Victor Celestino"
+      ],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115500,
+      "number": 35,
+      "title": "AKIP Process Automation Platform: A Framework for the Development of Process-Aware Web Applications",
+      "authors": [
+        "Ulisses Neto",
+        "Toacy Oliveira",
+        "Raquel Pillat",
+        "Paulo Alencar",
+        "Don Cowan",
+        "Glaucia Melo"
+      ],
+      "duration": 25,
+      "vector": [
+        1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0,
+        1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 113817,
+      "number": 6,
+      "title": "Classifying the Reliability of the Microservices Architecture",
+      "authors": ["Adrian Ramsingh", "Jeremy Singer", "Phil Trinder"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0,
+        0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115612,
+      "number": 58,
+      "title": "Using Feature Analysis to Guide Risk Calculations of Cyber Incidents",
+      "authors": ["Benjamin Aziz", "Alaa Mohasseb"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115853,
+      "number": 45,
+      "title": "Characterizing Open Government Data Available on the Web from the Quality Perspective: A Systematic Mapping Study",
+      "authors": ["Rafael Almeida", "Glauco Carneiro", "Edward Moreno"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 113801,
+      "number": 5,
+      "title": "Impact of Usage Behaviour on the User Experience of Netflix, Microsoft Powerpoint, Bigbluebutton and Zoom",
+      "authors": ["Jessica Kollmorgen", "Martin Schrepp", "Jörg Thomaschewski"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1
+      ],
+      "vectorArea": [0, 0, 0, 0, 0, 1],
+      "best": false
+    },
+    {
+      "id": 115913,
+      "number": 52,
+      "title": "Exploiting Linked Data-based Personalization Strategies for Recommender Systems",
+      "authors": ["Gabriela Da Silva", "Frederico Durão"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115925,
+      "number": 55,
+      "title": "Do Top Higher Education Institutions’ Social Media Communication Differ Depending on their Rank?",
+      "authors": ["Alvaro Figueira", "Lirielly Nascimento"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 0, 1, 0],
+      "best": false
+    },
+    {
+      "id": 115478,
+      "number": 32,
+      "title": "Adaptive and Collaborative Inference: Towards a No-compromise Framework for Distributed Intelligent Systems",
+      "authors": ["Alireza Furutanpey", "Schahram Dustdar"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 113521,
+      "number": 4,
+      "title": "A Skill Sharing Platform for Team Collaboration and Knowledge Exchange",
+      "authors": ["Victor Obionwu", "Andreas Nurnberger", "Gunter Saake"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1,
+        1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 0, 1, 0],
+      "best": false
+    },
+    {
+      "id": 115264,
+      "number": 15,
+      "title": "Few-shot Approach for Systematic Literature Review Classifications",
+      "authors": [
+        "Maísa Kely de Melo",
+        "Allan Faria",
+        "Li Weigang",
+        "Arthur Nery",
+        "Flávio R. de Oliveira",
+        "Ian Barreiro",
+        "Victor Celestino"
+      ],
+      "duration": 25,
+      "vector": [
+        1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115885,
+      "number": 47,
+      "title": "Semi real-time data cleaning of spatially correlated data in traffic sensor networks",
+      "authors": ["Federica Rollo", "Chiara Bachechi", "Laura Po"],
+      "duration": 25,
+      "vector": [
+        1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115914,
+      "number": 53,
+      "title": "An Interaction Effort Score for Web Pages",
+      "authors": [
+        "Juan Gardey",
+        "Julián Grigera",
+        "Andrés Rodríguez",
+        "Gustavo Rossi",
+        "Alejandra Garrido"
+      ],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+      ],
+      "vectorArea": [0, 0, 0, 0, 0, 1],
+      "best": false
+    },
+    {
+      "id": 113833,
+      "number": 7,
+      "title": "Identifying User Experience Aspects for Voice User Interfaces with Intensive Users",
+      "authors": [
+        "Kristina Kölln",
+        "Jana Deutschländer",
+        "Andreas Klein",
+        "Maria Rauschenberger",
+        "Dominique Winter"
+      ],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1
+      ],
+      "vectorArea": [0, 0, 0, 0, 0, 1],
+      "best": false
+    },
+    {
+      "id": 115416,
+      "number": 25,
+      "title": "Privacy Policy Beautifier: Bringing Privacy Policies Closer to Users",
+      "authors": ["Michalis Kaili", "Georgia Kapitsaki"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115261,
+      "number": 14,
+      "title": "Evaluation of Project Work in Public Administrations in E-government and Digitization Projects in Germany",
+      "authors": [
+        "Hanna Looks",
+        "Anja Gebauer",
+        "Jörg Thomaschewski",
+        "María Escalona",
+        "Eva-Maria Schön"
+      ],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115911,
+      "number": 51,
+      "title": "A Distributed Registry of Multi-perspective Data Services in Cyber Physical Production Networks",
+      "authors": ["Ada Bagozi", "Devis Bianchini", "Anisa Rula"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115762,
+      "number": 43,
+      "title": "The Ginger: Another Spice to Hinder Attacks on Password Files",
+      "authors": [
+        "Francesco Buccafurri",
+        "Vincenzo De Angelis",
+        "Sara Lazzaro"
+      ],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115917,
+      "number": 54,
+      "title": "CORNUCOPIA: Tool Support for Selecting Machine Learning Lifecycle Artifact Management Systems",
+      "authors": ["Marius Schlegel", "Kai-Uwe Sattler"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 0, 0, 1],
+      "best": false
+    },
+    {
+      "id": 115371,
+      "number": 23,
+      "title": "Agile in Higher Education: How Can Value-based Learning Be Implemented in Higher Education?",
+      "authors": ["Eva-Maria Schön", "Ilona Buchem", "Stefano Sostak"],
+      "duration": 25,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1
+      ],
+      "vectorArea": [1, 0, 0, 0, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115422,
+      "number": 27,
+      "title": "Classification of the Top-cited Literature by Fusing Linguistic and Citation Information with the Transformer Model",
+      "authors": [
+        "Masanao Ochi",
+        "Masanori Shiro",
+        "Jun’ichiro Mori",
+        "Ichiro Sakata"
+      ],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115892,
+      "number": 48,
+      "title": "Space Geeks: A Proposed Serious Game to Teach Array Concept for Novice Programming Students",
+      "authors": ["Abdelbaset Assaf", "Mohammed Eshtay", "Lana Issa"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1
+      ],
+      "vectorArea": [0, 0, 0, 0, 0, 1],
+      "best": false
+    },
+    {
+      "id": 115259,
+      "number": 13,
+      "title": "Factoid vs. Non-factoid Question Identification: An Ensemble Learning Approach",
+      "authors": ["Alaa Mohasseb", "Andreas Kanavos"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115368,
+      "number": 22,
+      "title": "A Simple Algorithm for Checking Pattern Query Containment under Shape Expression Schema",
+      "authors": ["Haruna Fujimoto", "Nobutaka Suzuki"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115474,
+      "number": 30,
+      "title": "Towards Soft Web Intelligence by Collecting and Processing JSON Data Sets from Web Sources",
+      "authors": ["Paolo Fosci", "Giuseppe Psaila"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    },
+    {
+      "id": 115276,
+      "number": 16,
+      "title": "Comparative Analysis of Recurrent Neural Network Architectures for Arabic Word Sense Disambiguation",
+      "authors": ["Rakia Saidi", "Fethi Jarray", "Mohammed Alsuhaibani"],
+      "duration": 20,
+      "vector": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "vectorArea": [0, 0, 0, 1, 0, 0],
+      "best": false
+    }
+  ],
+  "areas": [
+    { "id": 48, "name": "INTERNET TECHNOLOGY", "countTopics": 14 },
+    {
+      "id": 974,
+      "name": "Data Mining and Machine Learning Applications for Cyber Security",
+      "countTopics": 10
+    },
+    {
+      "id": 1023,
+      "name": "QoS and QoE in Systems and Services",
+      "countTopics": 4
+    },
+    {
+      "id": 1006,
+      "name": "WEB INTELLIGENCE and SEMANTIC WEB",
+      "countTopics": 14
+    },
+    { "id": 1007, "name": "SOCIAL NETWORK ANALYTICS ", "countTopics": 9 },
+    {
+      "id": 1008,
+      "name": "HCI in MOBILE SYSTEMS and WEB INTERFACES",
+      "countTopics": 14
+    }
+  ],
+  "topics": [
+    {
+      "id": 4782,
+      "name": "Application, Research Project and Internet Technology"
+    },
+    {
+      "id": 8561,
+      "name": "Applications of data mining and machine learning in Cyber threats prediction "
+    },
+    { "id": 9002, "name": "QoS and QoE in Wired Systems " },
+    { "id": 9003, "name": "QoS and QoE in Wireless Systems " },
+    {
+      "id": 8562,
+      "name": "Applications of data mining and machine learning in digital security and social networks "
+    },
+    { "id": 6852, "name": "Big Data and the Web" },
+    {
+      "id": 8563,
+      "name": "Applications of data mining and machine learning in detection and prevention of identity theft "
+    },
+    { "id": 6889, "name": "Digitalization/ Digitization" },
+    { "id": 9004, "name": "QoS and QoE in Mobile Systems" },
+    { "id": 9005, "name": "QoS and QoE in Multimedia Services" },
+    {
+      "id": 8564,
+      "name": "Applications of data mining and machine learning in the identification of malware "
+    },
+    { "id": 2136, "name": "Internet of Things" },
+    { "id": 4781, "name": "New Trends in Internet Technology" },
+    {
+      "id": 8565,
+      "name": "Applications of data mining and machine learning in detection and prevention of phishing threats "
+    },
+    {
+      "id": 8566,
+      "name": "Applications of data mining and machine learning in information security"
+    },
+    {
+      "id": 6856,
+      "name": "Technical Infrastructures Suporting Web Applications "
+    },
+    {
+      "id": 8567,
+      "name": "Applications of data mining and machine learning in cyber-attack detection and prevention "
+    },
+    { "id": 2823, "name": "Web Programming" },
+    {
+      "id": 6853,
+      "name": "Web Security and Privacy, Cyber Criminality and Internet, Dark Web "
+    },
+    {
+      "id": 8568,
+      "name": "Applications of data mining and machine learning in Web server attacks "
+    },
+    {
+      "id": 8569,
+      "name": "Applications of data mining and machine learning in fraud detection "
+    },
+    { "id": 539, "name": "Web Services and Web Engineering" },
+    { "id": 4720, "name": "Web Tools and Languages" },
+    {
+      "id": 8570,
+      "name": "Applications of data mining and machine learning in email spam and malware filtering"
+    },
+    {
+      "id": 4789,
+      "name": "Application, Research Project and Service Based IS"
+    },
+    { "id": 6865, "name": "Methodologies for Services and Architecture " },
+    { "id": 6866, "name": "Technical Infrastructure for Services " },
+    {
+      "id": 4786,
+      "name": "Web Based Integration Technologies, Web Services, REST and CRUD Services"
+    },
+    {
+      "id": 4811,
+      "name": "Applications, Research Projects and Web Intelligence"
+    },
+    { "id": 2826, "name": "Computational Intelligence on the Web" },
+    { "id": 4802, "name": "Context, Adaptability and Web Intelligence" },
+    { "id": 4805, "name": "Data Web Mining" },
+    { "id": 5003, "name": "Deep Learning" },
+    {
+      "id": 6881,
+      "name": "Linked Data, Big Data and Applications in Companies"
+    },
+    { "id": 714, "name": "Natural Language Processing " },
+    { "id": 1421, "name": "Web Information Filtering and Retrieval" },
+    {
+      "id": 8264,
+      "name": "Big Data and Data Mining Methods for the Semantic Web"
+    },
+    { "id": 8261, "name": "Knowledge Graphs and Deep Semantics " },
+    { "id": 8260, "name": "Knowledge Representation and Reasoning on the Web" },
+    {
+      "id": 4801,
+      "name": "New Trends in Ontology Management and the Semantic Web"
+    },
+    {
+      "id": 4800,
+      "name": "Ontology Discovering, Modelling, Retrieving and the Semantic Web"
+    },
+    { "id": 1278, "name": "Semantic Interoperability" },
+    { "id": 3646, "name": "Opinion Mining and Sentiment Analysis" },
+    { "id": 3644, "name": "Recommendation Systems" },
+    { "id": 3642, "name": "Social Media Analytics" },
+    { "id": 4803, "name": "Social Web Intelligence" },
+    { "id": 8808, "name": "Prediction of User Behavior Patterns" },
+    { "id": 6116, "name": "Decision Making" },
+    { "id": 2519, "name": "Collaborative Filtering" },
+    { "id": 8809, "name": "Document Clustering" },
+    { "id": 595, "name": "Social Information Systems" },
+    { "id": 4790, "name": "Design of Web Interface " },
+    { "id": 4794, "name": "User Modeling, Web Interface Modelling " },
+    {
+      "id": 4791,
+      "name": "Web Interface and Adaptability According to Context And/Or Profile"
+    },
+    { "id": 4799, "name": "Web Interfaces and Applications" },
+    { "id": 8810, "name": "UX and User-Centric Systems " },
+    { "id": 8811, "name": "Interaction Design" },
+    { "id": 1940, "name": "Augmented Reality" },
+    { "id": 8812, "name": "Mobile Systems Interoperability" },
+    { "id": 558, "name": "Ubiquitous Computing" },
+    { "id": 1092, "name": "Ambient Intelligence" },
+    { "id": 27, "name": "Human Factors" },
+    { "id": 4736, "name": "Application of Mobile Information Systems" },
+    { "id": 2829, "name": "Context Awareness" },
+    { "id": 4737, "name": "Human Computer Interaction" }
+  ],
+  "sessions": [
+    {
+      "id": 18849,
+      "start": "2022-10-25T11:15:00",
+      "duration": 105,
+      "gSessionId": 17994,
+      "number": "1A",
+      "finalPapers": []
+    },
+    {
+      "id": 20140,
+      "start": "2022-10-25T11:15:00",
+      "duration": 105,
+      "gSessionId": 17994,
+      "number": "1B",
+      "finalPapers": []
+    },
+    {
+      "id": 18850,
+      "start": "2022-10-25T15:30:00",
+      "duration": 75,
+      "gSessionId": 17995,
+      "number": "2A",
+      "finalPapers": []
+    },
+    {
+      "id": 20141,
+      "start": "2022-10-25T15:30:00",
+      "duration": 75,
+      "gSessionId": 17995,
+      "number": "2B",
+      "finalPapers": []
+    },
+    {
+      "id": 18851,
+      "start": "2022-10-25T17:00:00",
+      "duration": 90,
+      "gSessionId": 17996,
+      "number": "3A",
+      "finalPapers": []
+    },
+    {
+      "id": 20142,
+      "start": "2022-10-25T17:00:00",
+      "duration": 90,
+      "gSessionId": 17996,
+      "number": "3B",
+      "finalPapers": []
+    },
+    {
+      "id": 18858,
+      "start": "2022-10-26T09:00:00",
+      "duration": 90,
+      "gSessionId": 18005,
+      "number": "4A",
+      "finalPapers": []
+    },
+    {
+      "id": 20167,
+      "start": "2022-10-26T09:00:00",
+      "duration": 90,
+      "gSessionId": 18005,
+      "number": "4B",
+      "finalPapers": []
+    },
+    {
+      "id": 18859,
+      "start": "2022-10-26T11:30:00",
+      "duration": 90,
+      "gSessionId": 18006,
+      "number": "5A",
+      "finalPapers": []
+    },
+    {
+      "id": 20168,
+      "start": "2022-10-26T11:30:00",
+      "duration": 90,
+      "gSessionId": 18006,
+      "number": "5B",
+      "finalPapers": []
+    },
+    {
+      "id": 18860,
+      "start": "2022-10-26T15:30:00",
+      "duration": 120,
+      "gSessionId": 18007,
+      "number": "6A",
+      "finalPapers": []
+    },
+    {
+      "id": 20169,
+      "start": "2022-10-26T15:30:00",
+      "duration": 120,
+      "gSessionId": 18007,
+      "number": "6B",
+      "finalPapers": []
+    },
+    {
+      "id": 18868,
+      "start": "2022-10-27T09:30:00",
+      "duration": 75,
+      "gSessionId": 18018,
+      "number": "7A",
+      "finalPapers": []
+    },
+    {
+      "id": 20192,
+      "start": "2022-10-27T09:30:00",
+      "duration": 75,
+      "gSessionId": 18018,
+      "number": "7B",
+      "finalPapers": []
+    },
+    {
+      "id": 18869,
+      "start": "2022-10-27T11:45:00",
+      "duration": 75,
+      "gSessionId": 18019,
+      "number": "8A",
+      "finalPapers": []
+    },
+    {
+      "id": 20193,
+      "start": "2022-10-27T11:45:00",
+      "duration": 75,
+      "gSessionId": 18019,
+      "number": "8B",
+      "finalPapers": []
+    },
+    {
+      "id": 18870,
+      "start": "2022-10-27T15:30:00",
+      "duration": 105,
+      "gSessionId": 18020,
+      "number": "9A",
+      "finalPapers": []
+    },
+    {
+      "id": 20195,
+      "start": "2022-10-27T15:30:00",
+      "duration": 105,
+      "gSessionId": 18020,
+      "number": "9B",
+      "finalPapers": []
+    }
+  ],
+  "restrictions": [
+    { "sessionId": 18004, "articleId": 113364 },
+    { "sessionId": 18007, "articleId": 113364 },
+    { "sessionId": 17994, "articleId": 115671 },
+    { "sessionId": 17995, "articleId": 115671 },
+    { "sessionId": 17996, "articleId": 115671 },
+    { "sessionId": 18007, "articleId": 115680 },
+    { "sessionId": 18006, "articleId": 115680 },
+    { "sessionId": 18005, "articleId": 115680 },
+    { "sessionId": 18003, "articleId": 115680 },
+    { "sessionId": 18004, "articleId": 115680 }
+  ],
+  "preferences": [
+    { "sessionId": 18020, "articleId": 113364 },
+    { "sessionId": 18004, "articleId": 115671 },
+    { "sessionId": 18007, "articleId": 115671 },
+    { "sessionId": 18006, "articleId": 115671 },
+    { "sessionId": 18005, "articleId": 115671 },
+    { "sessionId": 18003, "articleId": 115671 },
+    { "sessionId": 18019, "articleId": 115680 },
+    { "sessionId": 18017, "articleId": 115680 },
+    { "sessionId": 18018, "articleId": 115680 },
+    { "sessionId": 18020, "articleId": 115680 },
+    { "sessionId": 18017, "articleId": 115917 },
+    { "sessionId": 18018, "articleId": 115917 },
+    { "sessionId": 18020, "articleId": 115917 },
+    { "sessionId": 18019, "articleId": 115917 }
+  ],
+  "data": [
+    [
+      1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
+      0.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      1.0, 0.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 1.0, 0.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 1.0, 0.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 1.0, 0.0
+    ],
+    [
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 1.0
+    ]
+  ],
+  "gSessions": [
+    {
+      "id": 17994,
+      "start": "2022-10-25T11:15:00",
+      "duration": 105,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 17995,
+      "start": "2022-10-25T15:30:00",
+      "duration": 75,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 17996,
+      "start": "2022-10-25T17:00:00",
+      "duration": 90,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18005,
+      "start": "2022-10-26T09:00:00",
+      "duration": 90,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18006,
+      "start": "2022-10-26T11:30:00",
+      "duration": 90,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18007,
+      "start": "2022-10-26T15:30:00",
+      "duration": 120,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18018,
+      "start": "2022-10-27T09:30:00",
+      "duration": 75,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18019,
+      "start": "2022-10-27T11:45:00",
+      "duration": 75,
+      "maxParallelSessions": 2
+    },
+    {
+      "id": 18020,
+      "start": "2022-10-27T15:30:00",
+      "duration": 105,
+      "maxParallelSessions": 2
+    }
+  ]
+}

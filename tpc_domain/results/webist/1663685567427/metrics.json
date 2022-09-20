@@ -1,0 +1,11 @@
+{
+    "pathLength": 9,
+    "totalGenerated": 75427,
+    "totalExpanded": 0,
+    "reExpandedNodes": 8636,
+    "discartedBranches": 16772,
+    "timeDuration": 30001,
+    "status": "Set time limit exceeded.",
+    "errors": [],
+    "evaluationPenaltyScore": 59.888888888888886
+}
