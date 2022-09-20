@@ -1,0 +1,11 @@
+{
+    "pathLength": 8,
+    "totalGenerated": 4579,
+    "totalExpanded": 34,
+    "reExpandedNodes": 0,
+    "discartedBranches": 742,
+    "timeDuration": 3668,
+    "status": "Solution found successfully.",
+    "errors": [],
+    "evaluationPenaltyScore": 37.19047619047619
+}

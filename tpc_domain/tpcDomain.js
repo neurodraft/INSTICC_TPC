@@ -26,7 +26,7 @@ module.exports = function (rawdata, tpcConfig) {
 
     var initialGSessions = gSessionsIds.map(gSessionId => {
         var session = sessions.find(s => s.gSessionId === gSessionId);
-        return { id: gSessionId, duration: session.duration, groups: [], authorsVector: new Array(authors.length).fill(0) };
+        return { id: gSessionId, duration: session.duration, groups: [], authorsVector: new Array(authors.length).fill(0), maxParallelSessions: gSessionmaxParallelSessionsMap.get(gSessionId)};
     });
 
     const totalSessionDuration = initialGSessions.reduce((partialSum, s) => partialSum + s.duration, 0);
@@ -255,7 +255,7 @@ module.exports = function (rawdata, tpcConfig) {
         var value = 0;
         for (var i = 0; i < vector1.length; i++) {
             value += vector1[i] * vector2[i];
-        }
+        };
 
         return value;
     }
@@ -263,7 +263,7 @@ module.exports = function (rawdata, tpcConfig) {
     function standardDeviation(values) {
         const n = values.length;
         const mean = values.reduce((partialSum, v) => partialSum + v) / n;
-        return Math.sqrt(values.map(x => Math.pow(x - mean, 2)).reduce((partialSum, v) => partialSum + v) / n)
+        return Math.sqrt(values.map(x => Math.pow(x - mean, 2)).reduce((partialSum, v) => partialSum + v) / n);
     }
 
     function heuristic(state) {
@@ -283,11 +283,66 @@ module.exports = function (rawdata, tpcConfig) {
         // Preferências que faltam satisfazer
         var preferencesHeuristic = getPreferencesHeuristic(state);
 
+        // Total of sessions with no rooms heuristic
+        var sessionsWithNoRoomsAmount = getSessionsWithNoRoomsAmount(state);
+
+        // Heuristic for standard deviation in set of room amount by uncomplete session, subtracted by 0.5 [SD(RoomAmountBySession) - 0.5]
+        var roomSessionUnevenessHeuristic = getRoomSessionUnevenessHeuristic(state);
+
+        // Overfilling room total
+        var overfillingRoomTotal = getOverfillingRoomTotal(state);
+
         heuristic += (remainingPapersAmount * tpcConfig.heuristicMultipliers.remainingPapersMultiplier)
-            + (preferencesHeuristic * tpcConfig.heuristicMultipliers.unmetPreferencesMultiplier);
+            + (preferencesHeuristic * tpcConfig.heuristicMultipliers.unmetPreferencesMultiplier)
+            + (sessionsWithNoRoomsAmount * tpcConfig.heuristicMultipliers.sessionsWithNoRoomsMultiplier)
+            + (roomSessionUnevenessHeuristic * tpcConfig.heuristicMultipliers.roomSessionUnevenessMultiplier)
+            + (overfillingRoomTotal * tpcConfig.heuristicMultipliers.overfillingRoomTotalMultiplier);
 
         return heuristic;
     }
+
+    function getSessionsWithNoRoomsAmount(state) {
+        let amount = 0;
+        state.gSessions.forEach((s) => {
+            if (s.groups.length == 0)
+                amount++;
+        });
+        return amount;
+    }
+
+    // Uneveness between room amount per uncomplete gSession
+    function getRoomSessionUnevenessHeuristic(state) {
+        // Irrelevant when rigid distribution is true
+        if (tpcConfig.distributeRoomsEvenlyRigid) {
+            return 0;
+        }
+
+        let roomAmounts = [];
+        state.gSessions.forEach((s) => {
+            if (canFitNewRoom(s))
+                roomAmounts.push(s.groups.length);
+        });
+
+        // threshold for expected oscillation
+        var heuristic = Math.max(0, standardDeviation(roomAmounts) - 0.5);
+
+        return heuristic;
+    }
+
+    function getOverfillingRoomTotal(state) {
+        let amount = 0;
+
+        if (tpcConfig.allowSessionOverfill) {
+            state.gSessions.forEach((s) => {
+                var maxParallelSessions = gSessionmaxParallelSessionsMap.get(s.id);
+                if (s.groups.length > maxParallelSessions)
+                    amount += s.groups.length - maxParallelSessions;
+            });
+        }
+        
+        return amount;
+    }
+
 
     function getRestrictionsHeuristic(state) {
         if (state.remainingPapers.length > 0) {
@@ -379,37 +434,49 @@ module.exports = function (rawdata, tpcConfig) {
         return authorsVector;
     }
 
-    // Get only unfullfiled gSessions (also with least remaining parallel sessions optionally)
+    function canFitNewRoom(gSession) {
+        // if allowing session overfill, return Infinity
+        if (tpcConfig.allowSessionOverfill) {
+            return true;
+        }
+        else {
+            var maxParallelSessions = gSessionmaxParallelSessionsMap.get(gSession.id);
+            return (maxParallelSessions == undefined || gSession.groups.length < maxParallelSessions)
+        }
+    }
+
+    // Get gSessions that allow placements
     function gSessionSuccessorsFilter(stateGSessions) {
         var groupLengthMin = undefined;
 
-        if (tpcConfig.distributeRoomsEvenly) {
-            stateGSessions.forEach(m => {
-                let maxParallelSessions = gSessionmaxParallelSessionsMap.get(m.id);
-                if (maxParallelSessions == undefined || m.groups.length < maxParallelSessions) {
+        if (tpcConfig.distributeRoomsEvenlyRigid) {
+            // determine minimum room amount in valid gSessions
+            stateGSessions.forEach(s => {
+                if  (canFitNewRoom(s)){
                     if (groupLengthMin === undefined) {
-                        groupLengthMin = m.groups.length;
-                    } else if (m.groups.length < groupLengthMin) {
-                        groupLengthMin = m.groups.length;
+                        groupLengthMin = s.groups.length;
+                    } else if (s.groups.length < groupLengthMin) {
+                        groupLengthMin = s.groups.length;
                     }
                 }
-                
             });
         }
         
         var gSessions = [];
         stateGSessions.forEach(s => {
-            let maxParallelSessions = gSessionmaxParallelSessionsMap.get(s.id);
-            if (maxParallelSessions == undefined || s.groups.length < maxParallelSessions)
-                if (tpcConfig.distributeRoomsEvenly) {
+            if (canFitNewRoom(s)) 
+                if (tpcConfig.distributeRoomsEvenlyRigid) {
+                    // only add to valid gSessions if has min room amount
                     if (s.groups.length == groupLengthMin) gSessions.push(s);
                 } else {
                     gSessions.push(s);
                 }
-        })
+        });
 
         return gSessions;
     }
+
+    
 
 
     function nextSuccessor(state) {
@@ -459,14 +526,15 @@ module.exports = function (rawdata, tpcConfig) {
                 restrictionsVector: paperGroupNode.restrictionsVector,
                 preferencesVector: paperGroupNode.preferencesVector,
                 authorsVector: paperGroupNode.authorsVector,
-                duration: paperGroupNode.duration
+                duration: paperGroupNode.duration,
             };
 
             var newGSession = {
                 id: gSession.id,
                 duration: gSession.duration,
                 groups: [...gSession.groups, newGroup],
-                authorsVector: orVectors(gSession.authorsVector, paperGroupNode.authorsVector)
+                authorsVector: orVectors(gSession.authorsVector, paperGroupNode.authorsVector),
+                maxParallelSessions: gSession.maxParallelSessions
             }
 
             newGSessions = [...newGSessions, newGSession];

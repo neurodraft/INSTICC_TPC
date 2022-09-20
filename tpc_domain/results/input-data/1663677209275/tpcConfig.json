@@ -1,0 +1,32 @@
+{
+    "baseTransitionCost": 1,
+    "sessionPenalties": {
+        "noCommonTopicsPenalty": 4,
+        "commonTopicsBeyondFirstPenaltyMultiplier": 1,
+        "areasBeyondFirstPenaltyMultiplier": {"withoutCommonTopics": 100, "withCommonTopics": 2},
+        "simultaneousSessionsAreaSimilarityPenaltyMultiplier": 8,
+        "simultaneousSessionsCommonTopicSimilarityPenaltyMultiplier": 8,
+        "undertimeNormalizedPenaltyMultiplier": 40,
+        "overtimeSessionDurationProductPenaltyMultiplier": 0.0125
+    },
+    "validDurations": [
+        { "sessionDuration":  60, "validDurations": [45, 50, 55, 60, 65]      },
+        { "sessionDuration":  75, "validDurations": [60, 65, 70, 75, 80]      },
+        { "sessionDuration":  90, "validDurations": [75, 80, 85, 90, 95]      },
+        { "sessionDuration": 105, "validDurations": [90, 95, 100, 105, 110]   },
+        { "sessionDuration": 120, "validDurations": [105, 110, 115, 120, 125] }
+    ],
+    "heuristicMultipliers": {
+        "remainingPapersMultiplier": 1,
+        "unmetPreferencesMultiplier": 1,
+        "sessionsWithNoRoomsMultiplier": 100,
+        "roomSessionUnevenessMultiplier": 10,
+        "overfillingRoomTotalMultiplier": 100
+    },
+    "iterativeAStar": {
+        "nodeReExpansionAdditionalCost": 10,
+        "maxSuccessorsPerIterationExpression": "Math.max(4096 / Math.pow(2, d), 4)"
+    },
+    "distributeRoomsEvenlyRigid": false,
+    "allowSessionOverfill": true
+}

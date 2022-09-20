@@ -14,6 +14,8 @@ function evaluateMatches(gSessions, restrictions, preferences) {
     var anyInvalid = false;
     var totalRestrictions = 0;
     var totalPreferences = 0;
+
+    
     
 
     gSessions.forEach(gSession => {
@@ -113,6 +115,8 @@ function evaluateMatches(gSessions, restrictions, preferences) {
         qualityReport.evaluations.push({
             gSessionId: gSession.id,
             evaluations: evaluations,
+            maxParallelSessions: gSession.maxParallelSessions,
+            actualParallelSessions: gSession.groups.length,
             simultaneousAreasPenaltyScore: simultaneousAreasPenaltyScore
         })
 

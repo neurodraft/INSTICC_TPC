@@ -6,7 +6,7 @@ const { Formatter } = require("fracturedjsonjs");
 
 const fs = require('fs');
 
-let inputFilename = "input-iceis";
+let inputFilename = "input-data";
 
 let rawdata = fs.readFileSync(`input/newInput/${inputFilename}.json`);
 
@@ -16,7 +16,7 @@ let tpcConfig = {
     // Session evaluation penalty rules
     sessionPenalties: {
         // Base penalty for sessions without common topics
-        noCommonTopicsPenalty: 1,
+        noCommonTopicsPenalty: 2,
         // Multiplier for common topics total beyond first common topic
         commonTopicsBeyondFirstPenaltyMultiplier: 1,
         // Multiplier for areas total beyond first area in group...
@@ -33,7 +33,7 @@ let tpcConfig = {
         // Multiplier for undertime normalized relative to Session Duration
         // eg.: 15 / 60 = 0.25 * 10 = 2.5 penalty score added for being 15 minutes under in a 60 minutes session
         // eg.: 15 / 105 = ~0.143 * 10 = ~1.43 penalty score added for being 15 minutes under in a 105 minutes session
-        undertimeNormalizedPenaltyMultiplier: 80,
+        undertimeNormalizedPenaltyMultiplier: 40,
 
         // Multiplier for product between overtime and Session Duration (gets larger as any of the two increases).
         // eg.: 5 * 60 = 300 * 0.025 = 7.5 penalty score added for going 5 minutes over in a 60 minutes session
@@ -69,7 +69,13 @@ let tpcConfig = {
         // Multiplier for remaining papers total
         remainingPapersMultiplier: 1,
         // Multiplier for unmet preferences total
-        unmetPreferencesMultiplier: 1
+        unmetPreferencesMultiplier: 1,
+        // Total of sessions with no rooms multiplier
+        sessionsWithNoRoomsMultiplier: 8,
+        // Multiplier for standard deviation in set of room amount by uncomplete session, subtracted by 0.5 [SD(RoomAmountBySession) - 0.5]
+        roomSessionUnevenessMultiplier: 8,
+        // Overfilling room total multiplier
+        overfillingRoomTotalMultiplier: 8
     },
     iterativeAStar: {
         // Additional cost for each reexpansion of a node
@@ -87,8 +93,10 @@ let tpcConfig = {
             //"Math.max(256 / (d + 1), 8)"
             //"Math.max(64 / (d + 1), 4)"
     },
-    distributeRoomsEvenly: true
-    
+    // Force evenly distributed rooms by restricting placements to least filled uncomplete sessions (replaces roomSessionUneveness heuristic) 
+    distributeRoomsEvenlyRigid: false,
+    // Allow adding more than the specified room max amount to sessions, no session is flagged as complete
+    allowSessionOverfill: true,
 };
 
 const {
